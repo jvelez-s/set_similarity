@@ -1,0 +1,517 @@
+# From get_uniq_lowest_levels_v2.pl on Tue Apr 21 11:50:01 2020
+# Input = all_go_levels_extended.txt
+GO ID	GO level	Total Genes	Genes in GO	GO name
+GO:0008152	2	1580	aas,aat,abgA,abgB,accA,accB,accC,accD,aceA,aceB,aceE,aceF,aceK,ackA,acnA,acnB,acpH,acpP,acpS,acpT,acs,ada,add,adhE,adhP,adiA,adk,aegA,aes,agaB,agaI,agaS,agaV,agp,ahpC,ahpF,ahr,aidB,ais,alaA,alaC,aldA,aldB,alkB,allD,alsE,alsK,alsR,amn,ampC,ampH,amyA,anmK,ansA,ansB,apaH,aphA,appA,appB,appC,apt,araA,araB,araC,araD,arcB,argA,argB,argC,argD,argE,argF,argG,argH,argI,argR,arnA,arnB,arnC,arnD,arnE,arnF,arnT,aroA,aroB,aroC,aroD,aroE,aroF,aroG,aroH,aroK,aroL,arsC,ascB,ascF,asd,aslB,asnA,asnB,aspA,aspC,astC,astD,atoA,atoB,atoD,atoS,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,avtA,azoR,bacA,baeS,barA,basS,bcp,bcsA,bcsB,bcsZ,bdcA,bepA,betA,betB,bfd,bfr,bglA,bglB,bglF,bglX,bioA,bioB,bioC,bioD,bioD2,bioF,bioH,birA,bisC,blc,btsS,btuE,btuR,cadA,caiA,carA,carB,cbl,cbrA,cca,ccmG,ccmH,ccp,cdd,cdh,cdsA,cfa,chaC,chbB,chbF,chbG,cheA,cheB,cheR,cheW,cheY,cheZ,chiA,citC,citG,citX,clpA,clpB,clpP,clpS,clpX,clsA,clsB,clsC,cmk,cmoM,cmtA,cmtB,cnoX,coaA,coaD,coaE,cobC,cobS,cobT,cobU,codA,cof,cpdB,cpsB,cpsG,cpxA,cra,creC,crr,csdA,csgA,csgB,cueO,curA,cusS,cvpA,cyaA,cyaY,cybB,cydA,cydB,cydX,cynS,cynT,cynX,cyoA,cyoB,cyoC,cyoD,cyoE,cysB,cysC,cysD,cysE,cysG,cysH,cysI,cysJ,cysK,cysM,cysN,cysP,cysQ,cysZ,cyuA,cyuP,dacA,dacB,dacC,dacD,dadA,dadX,dam,dapA,dapB,dapD,dapE,dapF,dcd,dcm,dcp,dcuA,dcuS,dcyD,ddpX,decR,degP,degQ,degS,deoA,deoB,deoC,deoD,dfp,dgcZ,dgkA,dgoA,dgoD,dgoK,dgt,dhaK,dhaL,dhaM,diaA,dinG,dkgA,dkgB,dld,dmlA,dmsA,dmsB,dmsC,dnaJ,dpiB,dps,dsbA,dsbB,dsbC,dsbD,dsbG,dsdA,dtd,dusA,dusB,dusC,dut,dxr,dxs,ebgA,eda,edd,efeB,elaD,elbB,emrE,eno,entA,entB,entC,entE,entF,envC,envZ,epd,epmC,eptA,eptB,eptC,era,erpA,etk,etp,eutB,eutC,eutE,eutG,eutT,evgS,fabA,fabB,fabD,fabF,fabG,fabH,fabI,fabR,fabZ,fadA,fadB,fadD,fadE,fadH,fadI,fadJ,fadK,fadM,fadR,fau,fbaA,fbaB,fbp,fcl,fdhD,fdhE,fdhF,fdnG,fdnH,fdnI,fdoG,fdoH,fdoI,fdrA,fdx,feaB,fepE,fixA,fixB,fixC,fixX,fldA,fldB,flgJ,fliI,fmt,folA,folB,folC,folD,folE,folK,folM,folP,folX,fpr,frdA,frdB,fre,frlA,frlB,frlC,frlD,frmA,frmB,fruA,fruB,fruK,frvA,frvB,frvR,frvX,frwB,frwD,fryA,fryB,fsaA,fsaB,ftnA,ftnB,ftsH,ftsI,ftsP,fucA,fucI,fucK,fucO,fucP,fucR,fucU,fumA,fumB,fumC,gabD,gabP,gabT,galE,galF,galK,galM,galR,galT,galU,gapA,garK,garR,gatA,gatD,gatY,gcd,gcvP,gcvT,gdhA,ggt,ghrA,ghrB,glaH,glcB,glcD,glcE,glcF,gldA,glf,glgB,glgC,glgP,glgX,glk,glmM,glmS,glmU,glnA,glnD,glnE,glnL,gloA,gloB,gloC,glpA,glpB,glpC,glpD,glpG,glpK,glpQ,glpX,glrK,gltA,gltB,gltD,gltX,glvB,glvG,glxK,glxR,glyA,gmd,gmhA,gmhB,gmk,gmm,gnd,gnsB,gntK,gntP,gntR,gntT,gor,gph,gpmA,gpmM,gpp,gpr,gpsA,gpt,grxA,grxB,grxC,grxD,gshA,gshB,gsk,gspO,gss,gstB,guaA,guaB,guaC,gudX,gutQ,hcaB,hcaC,hcaD,hcaE,hcaF,hchA,hcp,hcr,hcxA,hcxB,hdhA,hemA,hemB,hemC,hemD,hemE,hemF,hemG,hemH,hemL,hemN,hemW,hemY,hflX,hinT,hipA,hisA,hisB,hisC,hisD,hisF,hisG,hisH,hisI,hisL,hldE,hmp,hpf,hprS,hpt,hscA,hscB,hsdM,hslU,hslV,htpX,hxpA,hxpB,hyaA,hyaB,hyaC,hyaD,hybA,hybB,hybC,hybD,hybE,hybF,hybG,hybO,hycB,hycC,hycD,hycE,hycF,hycG,hycI,hydN,hyfA,hyfB,hyfC,hyfD,hyfE,hyfF,hyfG,hyfH,hyfI,hyfJ,hypA,hypB,hypC,hypD,hypE,hypF,iaaA,iadA,iap,icd,iclR,idi,idnD,idnK,idnO,idnT,ilvA,ilvB,ilvC,ilvD,ilvE,ilvH,ilvI,ilvL,ilvM,ilvN,ilvY,infA,infB,infC,iscA,iscS,iscU,iscX,ispA,ispB,ispD,ispE,ispF,ispG,ispH,ivbL,katE,katG,kbaY,kbaZ,kbl,kdgK,kdpD,kdsA,kdsB,kdsC,kdsD,kduD,kduI,kefF,kefG,lacZ,lapA,lapB,ldcA,ldcC,ldhA,ldtA,ldtB,ldtC,ldtD,ldtE,lepB,leuA,leuB,leuC,leuD,leuL,lexA,lgoD,lgoR,lgt,lhgD,lipA,lipB,lit,lldD,lnt,loiP,lolB,lon,lpd,lplA,lplT,lpp,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxM,lpxP,lpxT,lspA,lsrG,lsrK,ltaE,lysA,lysC,lyxK,maeA,maeB,mak,malP,malQ,malS,malT,malX,malY,malZ,manA,manX,map,mcbA,mdaB,mdh,melA,menF,mepA,mepH,mepM,mepS,metA,metB,metC,metE,metF,metH,metJ,metK,metL,metR,mhpA,mhpB,mhpC,mhpD,mhpE,mhpF,mhpR,mioC,mlc,mmuM,mmuP,mngA,mngB,mnmC,moaA,moaB,moaC,moaD,moaE,mobA,mobB,mocA,moeA,moeB,mog,mpaA,mpl,mqo,mrcA,mrcB,mrdA,mrp,msrA,msrB,msrC,msrP,msrQ,mtfA,mtlA,mtlD,mtn,murA,murB,murC,murD,murE,murF,murG,murI,murP,murQ,murR,mutM,mutY,nadA,nadB,nadC,nadD,nadE,nadK,nadR,nagA,nagB,nagC,nagE,nagK,nagZ,nanA,nanE,nanK,nanM,nanS,napA,napB,napC,napG,napH,narG,narH,narI,narQ,narV,narX,narY,narZ,ndh,ndk,nei,nemA,nfeF,nfsA,nfsB,nfuA,nirB,nirD,nlpC,nlpD,nnr,norV,norW,npr,nrdA,nrdB,nrdD,nrdE,nrdF,nrdG,nrdH,nrfA,nrfB,nrfC,nrfD,nth,nudB,nudC,nudE,nudF,nudK,nudL,nuoA,nuoB,nuoC,nuoE,nuoF,nuoG,nuoH,nuoI,nuoJ,nuoK,nuoL,nuoM,nuoN,ogt,ompT,opgB,opgC,opgD,opgG,osmC,otnC,otsA,otsB,oxc,paaA,paaB,paaC,paaD,paaE,paaF,paaG,paaH,paaI,paaJ,paaK,paaX,paaY,paaZ,pabA,pabB,pabC,pagP,panB,panC,panD,panE,panZ,paoA,paoB,paoC,patD,pbpC,pbpG,pck,pcm,pdxA,pdxB,pdxH,pdxI,pdxJ,pdxK,pdxY,pepA,pepB,pepD,pepE,pepN,pepP,pepQ,pepT,pfkA,pfkB,pflA,pflB,pflC,pgaB,pgeF,pgi,pgk,pgl,pgm,pgpA,pgpB,pgpC,pgsA,pheA,phnN,phoA,phoQ,phoR,php,pldA,pldB,plsB,plsC,plsX,plsY,pmbA,pncA,pncB,pncC,pntA,pntB,polA,poxB,ppa,ppc,pphA,pphB,pphC,ppk,pppA,ppsA,ppsR,pptA,ppx,pqqL,prc,preA,preT,prkB,prlC,prmA,prmB,prmC,proA,proB,proC,prpC,prpD,prs,psd,pssA,psuG,psuK,pta,pth,ptrA,ptrB,ptsA,ptsG,ptsH,ptsI,ptsN,ptsP,purA,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purR,purT,purU,putA,puuA,puuB,puuC,puuE,pxpA,pykA,pykF,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,pyrI,pyrL,pyrS,qorA,qorB,qseC,queF,queG,raiA,rbsD,rbsK,rclA,rcsC,rcsD,rdgB,recQ,relA,rfaD,rfbA,rfbB,rfbC,rfbD,rfbX,rfe,rffC,rffG,rffH,rffM,rhaA,rhaB,rhaD,rhaM,rhaR,rhaS,rhmD,ribD,ribF,ridA,rihA,rihB,rihC,rimI,rimJ,rimL,rlhA,rlmA,rlmB,rlmC,rlmD,rlmE,rlmF,rlmG,rlmH,rlmI,rlmJ,rlmL,rlmM,rlmN,rnd,roxA,rpe,rpiA,rpiB,rpmE,rrrD,rrrQ,rseP,rsmA,rsmB,rsmC,rsmD,rsmE,rsmF,rsmG,rsmH,rsmI,rsmJ,rspA,rspB,rssA,rstB,rsxA,rsxB,rsxC,rsxD,rsxE,rsxG,rutA,rutC,rutE,rutF,rzpD,sad,sbp,scpB,sdaA,sdaB,sdhA,sdhB,sdhC,sdhD,selD,selU,serA,serB,serC,sgbE,sgbH,sgbU,sgcA,sgcB,sgcE,sgcX,sixA,skp,slyD,sodA,sodB,sodC,sohB,solA,speC,speD,speF,spoT,sppA,srkA,srlB,srlD,srlE,sseA,ssuA,ssuB,ssuC,ssuD,ssuE,sthA,sucA,sucB,sucC,sucD,sufA,sufB,sufC,sufD,sufE,sufS,suhB,talA,talB,tam,tas,tauD,tdcB,tdcD,tdcE,tdcG,tdh,tdk,tehB,tesA,tesB,thiC,thiD,thiE,thiF,thiG,thiH,thiI,thiK,thiL,thiM,thiS,thrA,thrB,thrC,thrL,thyA,tktA,tktB,tldD,tmk,tnaA,tnaB,torA,torC,torD,torS,torY,torZ,tpiA,tpx,treA,treB,treC,treF,trmA,trmD,trmH,trmI,trmJ,trmL,trmO,trpA,trpB,trpC,trpD,trpE,trpL,trxA,trxB,trxC,tsaB,tsaD,tsaE,ttdA,tusA,tynA,tyrA,tyrB,tyrR,ubiB,ubiE,ubiF,ubiG,ubiH,ubiI,ubiX,ucpA,udk,udp,ugd,ugpQ,uhpB,uidA,ulaB,ulaC,ulaD,ulaE,ulaF,ulaG,umpG,umpH,umuD,upp,uppS,usg,ushA,uspG,uxaA,uxaB,uxaC,uxuA,uxuB,waaA,waaB,waaC,waaF,waaG,waaJ,waaL,waaO,waaP,waaQ,waaS,waaU,waaY,waaZ,wbbH,wbbI,wbbJ,wbbK,wcaA,wcaB,wcaC,wcaD,wcaE,wcaF,wcaI,wcaJ,wcaK,wcaL,wcaM,wecB,wecC,wecE,wecF,wecH,wrbA,wza,wzb,wzc,wzxC,wzxE,wzyE,wzzB,wzzE,xapA,xapB,xdhA,xdhB,xdhC,xdhD,xylA,xylB,yadE,yadI,yaeF,yaeI,yafE,yafL,yafS,yafV,yagE,yagF,yagH,yahF,yahI,yahK,yajL,yajO,ybbO,ybcF,ybdL,ybdR,ybdZ,ybeY,ybgC,ybhA,ybhJ,ybiA,ybiB,ybiV,ybiW,ybiX,ybiY,ybjI,ycaK,ycaL,ycbX,ycbZ,yccM,ycdX,yceJ,yceM,yciA,yciH,yciK,yciV,ycjG,ycjM,ycjQ,ycjR,ycjS,ycjT,ycjU,ydbK,ydcR,yddE,ydeM,ydeP,ydfG,ydfI,ydgD,ydgJ,ydhF,ydhR,ydhU,ydhV,ydiB,ydiF,ydiJ,ydiO,ydiQ,ydiR,ydiS,ydiT,ydjA,ydjG,ydjH,ydjI,ydjJ,ydjL,yeaD,yeaE,yeaG,yeaW,yeaX,yebK,yedK,yedP,yeeS,yegI,yegQ,yegS,yegV,yegX,yeiG,yeiI,yeiQ,yfaE,yfaL,yfaU,yfbL,yfbR,yfcF,yfcG,yfdG,yfdR,yfeW,yfeX,yfgD,yfhH,yfhL,yfiC,yfiF,yfjU,yfjY,ygbJ,ygbK,ygbL,ygbM,ygcE,ygcN,ygcO,ygcQ,ygcR,ygcU,ygcW,ygeA,ygeR,ygeW,ygeX,ygeY,ygfF,ygfK,ygfM,ygfS,ygfT,ygfZ,yggC,yggF,yggP,yghA,yghU,ygiD,ygiN,ygjK,ygjP,ygjR,yhbO,yhbU,yhbV,yhbW,yhdH,yhdJ,yheT,yhfS,yhfW,yhgF,yhgH,yhhW,yhhX,yhjJ,yiaK,yiaY,yibF,yibQ,yicI,yicR,yidA,yidK,yidR,yieF,yieH,yieK,yieL,yifB,yigB,yigL,yihQ,yihR,yihS,yihT,yihU,yihV,yihX,yiiM,yjcS,yjfP,yjhC,yjhG,yjhH,yjiA,yjiR,yjjG,yjjI,yjjJ,yjjU,yjjW,yjjX,yjtD,ykfG,ykgE,ykgF,ykgJ,yliI,ymdB,ynbA,ynbD,ynfE,ynfF,ynfG,ynfH,ynfK,yniA,ynjA,ynjE,ynjF,yoaA,yobB,yodB,yohF,ypdE,ypdF,ypdI,yphB,yphC,yqaB,yqcA,yqeA,yqeC,yqeF,yqgF,yqhD,yqjG,yraR,yrfG,ysaA,ytfB,ytfE,ytjC,zraS,zwf,	metabolic process
+GO:0006734	3	1	nudC,	NADH metabolic process
+GO:0071704	3	450	aas,accA,accB,accC,accD,aceA,aceB,aceE,aceF,aceK,ackA,acnA,acnB,acpH,acpP,acpS,acpT,agaI,agaS,agp,ahr,ais,aldA,alsE,alsK,alsR,amyA,anmK,araA,araB,araC,araD,arnA,arnB,arnC,arnD,arnE,arnF,arnT,ascB,atoA,atoB,atoD,bcsA,bcsB,bcsZ,bglA,bglB,bglX,blc,cdh,cdsA,cfa,chbF,chbG,chiA,clsA,clsB,clsC,cpsB,cpsG,cra,cynS,cynT,cynX,cysQ,deoC,dgkA,dgoA,dgoD,dgoK,dhaK,diaA,dkgA,dkgB,dxr,dxs,ebgA,edd,elbB,eno,epd,eptA,eptB,eptC,etk,fabA,fabB,fabD,fabF,fabG,fabH,fabI,fabR,fabZ,fadA,fadB,fadD,fadE,fadH,fadI,fadJ,fadK,fadM,fadR,fbaA,fbaB,fbp,fcl,fepE,fixB,frlB,frlC,frlD,fruK,fsaA,fsaB,fucA,fucI,fucK,fucO,fucP,fucR,fucU,galE,galF,galK,galM,galR,galT,galU,gapA,garK,gatY,gcd,ghrB,glcB,glf,glgB,glgC,glgP,glgX,glk,glmM,glmS,glmU,glpK,glpQ,glpX,glvG,glxK,gmd,gmhA,gmhB,gmm,gnd,gnsB,gntK,gntP,gntR,gntT,gph,gpmA,gpmM,gpsA,grxA,grxC,gsk,gutQ,hdhA,hldE,hxpA,hxpB,icd,iclR,idi,idnD,idnK,idnO,idnT,ispA,ispB,ispD,ispE,ispF,ispG,ispH,kbaY,kbaZ,kdgK,kdsA,kdsB,kdsC,kdsD,kduD,kduI,lacZ,lapA,lapB,lgoD,lgoR,lipA,lipB,lldD,lpd,lplT,lpp,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxM,lpxP,lpxT,lsrK,lyxK,maeA,mak,malP,malQ,malS,malT,malZ,manA,mcbA,mdh,melA,mlc,mngB,murA,murG,murQ,murR,nagA,nagB,nagC,nagK,nagZ,nanA,nanE,nanK,nanM,nanS,nemA,nrdA,nrdB,nrdD,nrdE,nrdF,nudE,nudF,nudK,opgB,opgC,opgD,opgG,otnC,oxc,paaF,paaG,paaH,paaJ,pagP,pck,pfkA,pfkB,pflA,pflB,pflC,pgaB,pgi,pgk,pgl,pgm,pgpA,pgpB,pgpC,pgsA,phnN,pldA,pldB,plsB,plsC,plsX,plsY,ppc,ppsA,prkB,prpC,psd,pssA,psuK,pxpA,pykA,pykF,rbsD,rbsK,rfaD,rfbA,rfbB,rfbC,rfbD,rfbX,rfe,rffC,rffG,rffH,rffM,rhaA,rhaB,rhaD,rhaM,rhaR,rhaS,rpe,rpiA,rpiB,rssA,scpB,sdaA,sdaB,sgbE,sgbH,sgbU,sgcE,sucA,suhB,talA,talB,tdcD,tdcE,tdcG,tesA,tesB,tktA,tktB,tpiA,treC,ugd,ugpQ,uidA,ulaD,ulaE,ulaF,ulaG,umpH,uppS,uxaA,uxaB,uxaC,uxuA,uxuB,waaA,waaB,waaC,waaF,waaG,waaJ,waaL,waaO,waaP,waaQ,waaS,waaU,waaY,waaZ,wbbH,wbbI,wbbJ,wbbK,wcaA,wcaB,wcaC,wcaD,wcaE,wcaF,wcaI,wcaJ,wcaK,wcaL,wcaM,wecB,wecC,wecE,wecF,wecH,wza,wzb,wzc,wzxC,wzxE,wzyE,wzzB,wzzE,xylA,xylB,yadE,yaeI,yagE,yagF,yagH,yajO,ybgC,ybiA,ybiW,yciA,ycjM,ycjR,ycjT,ycjU,ydiF,ydiR,ydjH,ydjI,yeaD,yebK,yegS,yegX,yeiI,yfdG,yfhH,ygbJ,ygbK,ygbL,ygbM,ygcE,yggF,yheT,yibQ,yicI,yidK,yidR,yieK,yieL,yihQ,yihR,yihV,yjhG,yjhH,yjjU,ynbA,ynjF,ypdI,yphB,yqeF,ytjC,zwf,	organic substance metabolic process
+GO:1901135	4	148	agaI,agaS,alsE,alsK,alsR,anmK,arnA,arnB,arnC,arnD,arnE,arnF,arnT,bcsA,bcsB,cpsB,cpsG,diaA,dxs,eptA,eptB,eptC,etk,fbp,fcl,fepE,frlB,frlC,galE,galF,galU,glf,glk,glmM,glmS,glmU,glpX,gmd,gmhA,gmhB,gmm,gnd,gpsA,grxA,grxC,gutQ,hldE,kdsA,kdsB,kdsC,kdsD,lpxL,lpxM,lpxP,lpxT,manA,mcbA,murA,murQ,murR,nagA,nagB,nanA,nanE,nanK,nanS,nrdA,nrdB,nrdD,nrdE,nrdF,nudE,nudF,nudK,opgB,pfkA,pgi,pgl,rfaD,rfbA,rfbB,rfbC,rfbD,rfbX,rfe,rffC,rffG,rffH,rffM,rpe,rpiA,rpiB,sgcE,talA,talB,tktA,tktB,tpiA,ugd,waaA,waaB,waaC,waaF,waaG,waaJ,waaL,waaO,waaP,waaQ,waaS,waaU,waaY,waaZ,wbbH,wbbI,wbbJ,wbbK,wcaA,wcaB,wcaC,wcaD,wcaE,wcaF,wcaI,wcaJ,wcaK,wcaL,wcaM,wecB,wecC,wecE,wecF,wecH,wza,wzb,wzc,wzxC,wzxE,wzyE,wzzB,wzzE,ybiA,yebK,yfhH,yggF,yieK,ypdI,zwf,	carbohydrate derivative metabolic process
+GO:0006002	5	4	fbp,frlB,glmS,pfkA,	fructose 6-phosphate metabolic process
+GO:0019693	5	3	nudE,nudF,nudK,	ribose phosphate metabolic process
+GO:0009052	5	7	alsE,rpe,rpiA,sgcE,talB,tktA,tktB,	pentose-phosphate shunt, non-oxidative branch
+GO:0046377	5	22	cpsB,fcl,galE,galU,gmd,manA,mcbA,ugd,wcaA,wcaB,wcaC,wcaD,wcaE,wcaF,wcaI,wcaJ,wcaL,wza,wzb,wzc,wzxC,ypdI,	colanic acid metabolic process
+GO:0009242	6	13	cpsB,fcl,galE,galU,gmd,manA,mcbA,ugd,wcaJ,wzb,wzc,wzxC,ypdI,	colanic acid biosynthetic process
+GO:0051156	5	13	alsK,glk,gnd,pgi,pgl,rpe,rpiA,rpiB,talA,talB,tktA,tktB,zwf,	glucose 6-phosphate metabolic process
+GO:0009051	5	1	gnd,	pentose-phosphate shunt, oxidative branch
+GO:0006098	5	10	gnd,pgl,rpe,rpiA,rpiB,talA,talB,tktA,tktB,zwf,	pentose-phosphate shunt
+GO:0006040	5	17	agaI,alsK,anmK,frlB,frlC,glmM,glmS,glmU,murQ,murR,nagA,nagB,nanA,nanE,nanK,nanS,yieK,	amino sugar metabolic process
+GO:0006054	6	9	agaI,alsK,nagA,nagB,nanA,nanE,nanK,nanS,yieK,	N-acetylneuraminate metabolic process
+GO:0019262	6	8	agaI,alsK,nagA,nagB,nanA,nanE,nanK,yieK,	N-acetylneuraminate catabolic process
+GO:0046348	6	11	agaI,alsK,frlC,murQ,murR,nagA,nagB,nanA,nanE,nanK,yieK,	amino sugar catabolic process
+GO:0097173	7	2	murQ,murR,	N-acetylmuramic acid catabolic process
+GO:0006047	5	7	agaI,frlB,glmM,glmS,glmU,nagB,yieK,	UDP-N-acetylglucosamine metabolic process
+GO:0006048	6	6	agaI,glmM,glmS,glmU,nagB,yieK,	UDP-N-acetylglucosamine biosynthetic process
+GO:1901137	5	107	agaI,arnA,arnB,arnC,arnD,arnE,arnF,arnT,cpsB,cpsG,dxs,eptA,eptB,eptC,etk,fcl,fepE,galE,galF,galU,glf,glmM,glmS,glmU,gmd,gmhA,gmhB,gmm,gpsA,grxA,grxC,gutQ,hldE,kdsA,kdsB,kdsC,kdsD,lpxL,lpxM,lpxP,lpxT,manA,mcbA,murA,nagB,nrdA,nrdB,nrdD,nrdE,nrdF,opgB,rfaD,rfbA,rfbB,rfbC,rfbD,rfbX,rfe,rffC,rffG,rffH,rffM,tpiA,ugd,waaA,waaB,waaC,waaF,waaG,waaJ,waaL,waaO,waaP,waaQ,waaS,waaU,waaY,waaZ,wbbH,wbbI,wbbJ,wbbK,wcaA,wcaB,wcaC,wcaD,wcaE,wcaF,wcaI,wcaJ,wcaK,wcaL,wcaM,wecB,wecC,wecE,wecF,wecH,wzb,wzc,wzxC,wzxE,wzyE,wzzB,wzzE,yieK,ypdI,	carbohydrate derivative biosynthetic process
+GO:2001061	6	1	gmhA,	D-glycero-D-manno-heptose 7-phosphate biosynthetic process
+GO:0009226	6	21	agaI,arnA,cpsB,cpsG,fcl,glmM,glmS,glmU,gmhB,hldE,kdsB,manA,murA,nagB,rfaD,rfbA,rfbB,rfbC,rfbD,ugd,yieK,	nucleotide-sugar biosynthetic process
+GO:0033320	7	1	arnA,	UDP-D-xylose biosynthetic process
+GO:0006065	7	1	ugd,	UDP-glucuronate biosynthetic process
+GO:0019277	7	1	murA,	UDP-N-acetylgalactosamine biosynthetic process
+GO:0009298	7	3	cpsB,cpsG,manA,	GDP-mannose biosynthetic process
+GO:2001315	7	1	arnA,	UDP-4-deoxy-4-formamido-beta-L-arabinopyranose biosynthetic process
+GO:0019305	7	4	rfbA,rfbB,rfbC,rfbD,	dTDP-rhamnose biosynthetic process
+GO:0033468	7	1	kdsB,	CMP-keto-3-deoxy-D-manno-octulosonic acid biosynthetic process
+GO:0097171	7	3	gmhB,hldE,rfaD,	ADP-L-glycero-beta-D-manno-heptose biosynthetic process
+GO:0009246	6	13	rfe,rffC,rffG,rffH,rffM,wecB,wecC,wecE,wecF,wecH,wzxE,wzyE,wzzE,	enterobacterial common antigen biosynthetic process
+GO:0046167	6	1	gpsA,	glycerol-3-phosphate biosynthetic process
+GO:0009103	6	72	arnA,arnB,arnC,arnD,arnE,arnF,arnT,cpsB,cpsG,eptA,eptB,eptC,etk,fepE,galF,glf,glmU,gmhA,gmhB,gmm,gutQ,hldE,kdsA,kdsB,kdsC,kdsD,lpxL,lpxM,lpxP,lpxT,rfaD,rfbA,rfbB,rfbC,rfbD,rfbX,rfe,rffG,ugd,waaA,waaB,waaC,waaF,waaG,waaJ,waaL,waaO,waaP,waaQ,waaS,waaU,waaY,waaZ,wbbH,wbbI,wbbJ,wbbK,wcaA,wcaB,wcaC,wcaD,wcaE,wcaF,wcaI,wcaJ,wcaK,wcaL,wcaM,wzc,wzxC,wzzB,wzzE,	lipopolysaccharide biosynthetic process
+GO:0046166	6	1	tpiA,	glyceraldehyde-3-phosphate biosynthetic process
+GO:0052865	6	1	dxs,	1-deoxy-D-xylulose 5-phosphate biosynthetic process
+GO:0009263	6	7	grxA,grxC,nrdA,nrdB,nrdD,nrdE,nrdF,	deoxyribonucleotide biosynthetic process
+GO:0009265	7	1	nrdD,	2'-deoxyribonucleotide biosynthetic process
+GO:0006490	5	1	opgB,	oligosaccharide-lipid intermediate biosynthetic process
+GO:0030388	5	4	fbp,glpX,pfkA,yggF,	fructose 1,6-bisphosphate metabolic process
+GO:0009225	5	28	agaI,arnA,bcsA,bcsB,cpsB,cpsG,fcl,frlB,galF,galU,glmM,glmS,glmU,gmd,gmhB,hldE,kdsB,manA,murA,nagB,rfaD,rfbA,rfbB,rfbC,rfbD,rffG,ugd,yieK,	nucleotide-sugar metabolic process
+GO:0006011	5	4	bcsA,bcsB,galF,galU,	UDP-glucose metabolic process
+GO:0019673	6	4	cpsB,cpsG,gmd,manA,	GDP-mannose metabolic process
+GO:0015977	4	1	ppc,	carbon fixation
+GO:0005975	4	245	aceA,aceB,aceE,aceF,aceK,acnA,acnB,agaI,agp,aldA,alsE,alsK,amyA,anmK,araA,araB,araC,araD,arnB,arnD,ascB,bcsZ,bglA,bglB,bglX,chbF,chbG,chiA,cpsB,cpsG,cra,deoC,dgoA,dgoD,dgoK,dhaK,dkgA,dkgB,ebgA,edd,eno,epd,fbaA,fbaB,fbp,frlD,fruK,fsaA,fsaB,fucA,fucI,fucK,fucO,fucP,fucR,fucU,galE,galK,galM,galR,galT,galU,gapA,gatY,gcd,ghrB,glcB,glgB,glgC,glgP,glgX,glk,glmM,glmS,glpK,glpX,glvG,gmhA,gmhB,gnd,gntK,gntP,gntR,gntT,gph,gpmA,gpmM,gpsA,gsk,gutQ,hldE,hxpA,hxpB,icd,iclR,idnD,idnK,idnO,idnT,kbaY,kbaZ,kdgK,kdsD,kduD,kduI,lacZ,lgoD,lgoR,lldD,lpd,lsrK,lyxK,maeA,mak,malP,malQ,malS,malT,malZ,manA,mdh,melA,mlc,mngB,murG,murQ,murR,nagA,nagB,nagC,nagK,nagZ,nanA,nanE,nanK,nanM,nanS,opgC,opgD,opgG,otnC,pck,pfkA,pfkB,pflA,pflB,pflC,pgaB,pgi,pgk,pgl,pgm,phnN,ppsA,prkB,prpC,psuK,pxpA,pykA,pykF,rbsD,rbsK,rfaD,rfbC,rfbD,rffH,rhaA,rhaB,rhaD,rhaM,rhaR,rhaS,rpe,rpiB,sdaA,sdaB,sgbE,sgbH,sgbU,sgcE,sucA,suhB,talA,talB,tdcE,tdcG,tpiA,treC,ugd,uidA,ulaD,ulaE,ulaF,ulaG,umpH,uxaA,uxaB,uxaC,uxuA,uxuB,waaP,waaY,wcaJ,wecC,wecE,wza,wzb,wzc,xylA,xylB,yadE,yagE,yagF,yagH,ybiW,ycjM,ycjR,ycjT,ycjU,ydjH,ydjI,yeaD,yegX,yeiI,yfdG,ygbJ,ygbK,ygbL,ygbM,ygcE,yggF,yibQ,yicI,yidK,yidR,yieK,yieL,yihQ,yihR,yihV,yjhG,yjhH,yphB,ytjC,zwf,	carbohydrate metabolic process
+GO:0016051	5	14	arnB,cpsB,fbp,opgD,opgG,rffH,ugd,wcaJ,wecC,wecE,wza,wzb,wzc,yfdG,	carbohydrate biosynthetic process
+GO:0000271	6	11	arnB,cpsB,rffH,ugd,wcaJ,wecC,wecE,wza,wzb,wzc,yfdG,	polysaccharide biosynthetic process
+GO:0009311	5	5	malS,malZ,mngB,opgC,treC,	oligosaccharide metabolic process
+GO:0009313	6	4	malS,malZ,mngB,treC,	oligosaccharide catabolic process
+GO:0051692	6	2	malS,malZ,	cellular oligosaccharide catabolic process
+GO:0044262	4	63	aceA,aceB,aceK,acnA,acnB,alsE,alsK,araB,dgoA,dgoD,dgoK,edd,frlD,fruK,fucK,galK,galT,ghrB,glcB,gnd,gntK,gntP,gntR,gntT,gpmM,gsk,hldE,icd,iclR,idnD,idnK,idnO,idnT,kdgK,lgoD,lgoR,lyxK,mak,malS,malZ,nagK,nanK,pfkA,pfkB,phnN,psuK,rbsK,rhaB,rpe,sgcE,suhB,uidA,waaP,waaY,xylB,yagE,yagF,ydjH,yegX,yeiI,yihV,yjhG,yjhH,	cellular carbohydrate metabolic process
+GO:0006020	5	1	suhB,	inositol metabolic process
+GO:0006097	5	8	aceA,aceB,aceK,acnA,acnB,glcB,icd,iclR,	glyoxylate cycle
+GO:0046835	5	27	alsK,araB,dgoK,frlD,fruK,fucK,galK,galT,gsk,hldE,kdgK,lyxK,mak,nagK,nanK,pfkA,pfkB,phnN,psuK,rbsK,rhaB,waaP,waaY,xylB,ydjH,yeiI,yihV,	carbohydrate phosphorylation
+GO:0044275	5	25	dgoA,dgoD,dgoK,edd,ghrB,gnd,gntK,gntP,gntR,gntT,idnD,idnK,idnO,idnT,lgoD,lgoR,malS,malZ,pfkA,uidA,yagE,yagF,yegX,yjhG,yjhH,	cellular carbohydrate catabolic process
+GO:0019391	6	1	uidA,	glucuronoside catabolic process
+GO:0046176	6	20	dgoA,dgoD,dgoK,edd,ghrB,gnd,gntK,gntP,gntR,gntT,idnD,idnK,idnO,idnT,lgoD,lgoR,yagE,yagF,yjhG,yjhH,	aldonic acid catabolic process
+GO:0019584	7	5	dgoA,dgoD,dgoK,lgoD,lgoR,	galactonate catabolic process
+GO:0034194	8	3	dgoA,dgoD,dgoK,	D-galactonate catabolic process
+GO:0034195	8	1	lgoD,	L-galactonate catabolic process
+GO:0046177	7	7	edd,gnd,gntK,gntP,gntR,gntT,idnK,	D-gluconate catabolic process
+GO:0046183	7	4	idnD,idnK,idnO,idnT,	L-idonate catabolic process
+GO:0046181	7	1	ghrB,	ketogluconate catabolic process
+GO:0016052	5	91	aceE,aceF,alsE,araA,araB,araC,araD,ascB,bcsZ,bglA,bglB,bglX,chbG,chiA,cra,deoC,dgoA,dgoD,dgoK,dhaK,edd,eno,fbaA,fbaB,fucA,fucI,fucK,gapA,ghrB,glgP,glgX,glk,gnd,gntK,gntP,gntR,gntT,gpmA,gpmM,idnD,idnK,idnO,idnT,kdgK,kduD,kduI,lgoD,lgoR,lpd,malP,malS,malZ,mdh,mngB,otnC,pfkA,pfkB,pgi,pgk,pykA,pykF,rbsD,rbsK,rhaD,rpe,sgbE,sgbH,sgcE,sucA,tpiA,treC,uidA,ulaD,ulaE,ulaF,ulaG,uxaA,uxaB,uxaC,uxuA,uxuB,xylA,xylB,yagE,yagF,yagH,yegX,yidR,yjhG,yjhH,ytjC,	carbohydrate catabolic process
+GO:0006096	5	21	aceE,aceF,cra,eno,fbaA,fbaB,gapA,glk,gpmA,gpmM,lpd,mdh,pfkA,pfkB,pgi,pgk,pykA,pykF,sucA,tpiA,ytjC,	glycolytic process
+GO:0061615	6	1	pfkB,	glycolytic process through fructose-6-phosphate
+GO:0000272	6	11	bcsZ,bglX,chbG,chiA,glgP,glgX,kduI,malP,malS,malZ,yagH,	polysaccharide catabolic process
+GO:0009251	7	6	bglX,glgP,glgX,malP,malS,malZ,	glucan catabolic process
+GO:0005980	8	3	glgP,glgX,malP,	glycogen catabolic process
+GO:0030980	8	3	malP,malS,malZ,	alpha-glucan catabolic process
+GO:0045490	7	1	kduI,	pectin catabolic process
+GO:0046365	6	32	alsE,araA,araB,araC,araD,dhaK,fucA,fucI,fucK,kdgK,kduD,kduI,otnC,rbsD,rbsK,rhaD,rpe,sgbE,sgbH,sgcE,ulaD,ulaE,ulaF,ulaG,uxaA,uxaB,uxaC,uxuA,uxuB,xylA,xylB,yidR,	monosaccharide catabolic process
+GO:0019854	7	5	sgbH,ulaD,ulaE,ulaF,ulaG,	L-ascorbic acid catabolic process
+GO:0019323	7	18	alsE,araA,araB,araC,araD,fucA,fucI,fucK,otnC,rbsD,rbsK,rhaD,rpe,sgbE,sgcE,ulaF,xylA,xylB,	pentose catabolic process
+GO:0019568	8	8	araA,araB,araC,araD,fucA,fucI,fucK,sgbE,	arabinose catabolic process
+GO:0019571	9	3	fucA,fucI,fucK,	D-arabinose catabolic process
+GO:0019572	9	4	araA,araB,araD,sgbE,	L-arabinose catabolic process
+GO:0019569	10	3	araA,araB,araD,	L-arabinose catabolic process to xylulose 5-phosphate
+GO:0042843	8	2	xylA,xylB,	D-xylose catabolic process
+GO:0019303	8	2	rbsD,rbsK,	D-ribose catabolic process
+GO:0005998	8	1	xylB,	xylulose catabolic process
+GO:0006064	7	6	kdgK,kduD,kduI,uxaC,uxuA,uxuB,	glucuronate catabolic process
+GO:0042840	8	6	kdgK,kduD,kduI,uxaC,uxuA,uxuB,	D-glucuronate catabolic process
+GO:0046397	7	7	kdgK,kduD,kduI,uxaA,uxaB,uxaC,yidR,	galacturonate catabolic process
+GO:0019698	8	6	kdgK,kduD,kduI,uxaA,uxaB,uxaC,	D-galacturonate catabolic process
+GO:0005996	5	87	aceK,agp,aldA,alsE,araA,araB,araC,araD,dhaK,dkgA,dkgB,epd,fbaA,fbp,fruK,fsaA,fsaB,fucA,fucI,fucK,fucO,fucP,fucR,fucU,galE,galK,galM,galR,galT,galU,gapA,gcd,glpX,gpmA,gpmM,kdgK,kduD,kduI,lldD,maeA,manA,mngB,otnC,pck,pfkA,pflA,pflB,pflC,pgi,pgk,pgl,pgm,ppsA,rbsD,rbsK,rhaA,rhaB,rhaD,rhaM,rhaR,rhaS,rpe,sdaA,sdaB,sgbE,sgbH,sgbU,sgcE,tdcG,tpiA,ulaD,ulaE,ulaF,ulaG,uxaA,uxaB,uxaC,uxuA,uxuB,xylA,xylB,yggF,yidK,yidR,yihR,yphB,zwf,	monosaccharide metabolic process
+GO:0019318	6	56	aceK,agp,aldA,epd,fbaA,fbp,fruK,fsaA,fsaB,fucA,fucI,fucK,fucO,fucP,fucR,fucU,galE,galK,galM,galR,galT,galU,gapA,gcd,glpX,gpmA,gpmM,lldD,maeA,manA,mngB,pck,pfkA,pflA,pflB,pflC,pgi,pgk,pgl,pgm,ppsA,rhaA,rhaB,rhaD,rhaM,rhaR,rhaS,sdaA,sdaB,tdcG,tpiA,yggF,yidK,yihR,yphB,zwf,	hexose metabolic process
+GO:0006013	7	2	manA,mngB,	mannose metabolic process
+GO:0019309	8	1	manA,	mannose catabolic process
+GO:0006012	7	10	galE,galK,galM,galR,galT,galU,pgm,yidK,yihR,yphB,	galactose metabolic process
+GO:0019388	8	8	galE,galK,galM,galT,galU,pgm,yihR,yphB,	galactose catabolic process
+GO:0033499	9	7	galE,galK,galM,galT,galU,yihR,yphB,	galactose catabolic process via UDP-galactose
+GO:0019299	7	9	aldA,fucK,fucO,rhaA,rhaB,rhaD,rhaM,rhaR,rhaS,	rhamnose metabolic process
+GO:0019301	8	7	aldA,fucK,fucO,rhaA,rhaB,rhaD,rhaM,	rhamnose catabolic process
+GO:0006004	7	9	aldA,fucA,fucI,fucK,fucO,fucP,fucR,fucU,lldD,	fucose metabolic process
+GO:0042354	8	7	aldA,fucA,fucI,fucK,fucO,fucU,lldD,	L-fucose metabolic process
+GO:0042355	9	6	aldA,fucA,fucI,fucK,fucO,lldD,	L-fucose catabolic process
+GO:0019317	8	6	aldA,fucA,fucI,fucK,fucO,lldD,	fucose catabolic process
+GO:0006006	7	30	aceK,agp,epd,fbaA,fbp,galM,gapA,gcd,glpX,gpmA,gpmM,maeA,pck,pfkA,pflA,pflB,pflC,pgi,pgk,pgl,pgm,ppsA,sdaA,sdaB,tdcG,tpiA,yggF,yihR,yphB,zwf,	glucose metabolic process
+GO:0006094	8	14	fbaA,fbp,glpX,gpmA,maeA,pck,pgi,pgk,ppsA,sdaA,sdaB,tdcG,tpiA,yggF,	gluconeogenesis
+GO:0006007	8	4	agp,gcd,gpmM,pfkA,	glucose catabolic process
+GO:0019595	9	1	gcd,	non-phosphorylated glucose catabolic process
+GO:0006000	7	4	fbp,fruK,fsaA,fsaB,	fructose metabolic process
+GO:0006001	8	1	fruK,	fructose catabolic process
+GO:0019852	6	8	dkgA,dkgB,sgbH,sgbU,ulaD,ulaE,ulaF,ulaG,	L-ascorbic acid metabolic process
+GO:0019853	7	2	dkgA,dkgB,	L-ascorbic acid biosynthetic process
+GO:0005976	5	22	arnB,bcsZ,bglX,chbG,chiA,cpsB,glgP,glgX,kduI,malP,malS,malZ,rffH,ugd,wcaJ,wecC,wecE,wza,wzb,wzc,yagH,yfdG,	polysaccharide metabolic process
+GO:0006629	4	181	aas,accA,accB,accC,accD,acpH,acpP,acpS,acpT,ahr,ais,arnA,arnB,arnC,arnD,arnE,arnF,arnT,atoA,atoB,atoD,blc,cdh,cdsA,cfa,clsA,clsB,clsC,cpsB,cpsG,cysQ,dgkA,dxr,dxs,elbB,eptA,eptB,eptC,etk,fabA,fabB,fabD,fabF,fabG,fabH,fabI,fabR,fabZ,fadA,fadB,fadD,fadE,fadH,fadI,fadJ,fadK,fadM,fadR,fepE,fixB,galF,glf,glmU,glpQ,gmhA,gmhB,gmm,gnsB,gpsA,gutQ,hdhA,hldE,idi,ispA,ispB,ispD,ispE,ispF,ispG,ispH,kdsA,kdsB,kdsC,kdsD,lapA,lapB,lipA,lipB,lplT,lpp,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxM,lpxP,lpxT,murG,opgB,oxc,paaF,paaG,paaH,paaJ,pagP,pgpA,pgpB,pgpC,pgsA,pldA,pldB,plsB,plsC,plsX,plsY,psd,pssA,rfaD,rfbA,rfbB,rfbC,rfbD,rfbX,rfe,rffG,rssA,scpB,suhB,tesA,tesB,ugd,ugpQ,uppS,waaA,waaB,waaC,waaF,waaG,waaJ,waaL,waaO,waaP,waaQ,waaS,waaU,waaY,waaZ,wbbH,wbbI,wbbJ,wbbK,wcaA,wcaB,wcaC,wcaD,wcaE,wcaF,wcaI,wcaJ,wcaK,wcaL,wcaM,wzc,wzxC,wzzB,wzzE,yaeI,yajO,ybgC,yciA,ydiF,ydiR,yegS,yheT,yjjU,ynbA,ynjF,yqeF,	lipid metabolic process
+GO:0044255	4	169	aas,accA,accB,accC,accD,acpH,acpP,acpS,acpT,ahr,ais,arnA,arnB,arnC,arnD,arnE,arnF,arnT,atoA,atoB,atoD,cdh,cdsA,cfa,clsA,clsB,clsC,cpsB,cpsG,cysQ,dgkA,dxr,dxs,eptA,eptB,eptC,etk,fabA,fabB,fabD,fabF,fabG,fabH,fabI,fabR,fabZ,fadA,fadB,fadD,fadE,fadH,fadI,fadJ,fadK,fadM,fadR,fepE,fixB,galF,glf,glmU,gmhA,gmhB,gmm,gnsB,gpsA,gutQ,hldE,idi,ispA,ispD,ispE,ispF,ispG,ispH,kdsA,kdsB,kdsC,kdsD,lapA,lapB,lipA,lipB,lplT,lpp,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxM,lpxP,lpxT,murG,opgB,oxc,paaF,paaG,paaH,paaJ,pagP,pgpA,pgpB,pgpC,pgsA,pldA,plsB,plsC,plsX,plsY,psd,pssA,rfaD,rfbA,rfbB,rfbC,rfbD,rfbX,rfe,rffG,rssA,scpB,suhB,tesB,ugd,waaA,waaB,waaC,waaF,waaG,waaJ,waaL,waaO,waaP,waaQ,waaS,waaU,waaY,waaZ,wbbH,wbbI,wbbJ,wbbK,wcaA,wcaB,wcaC,wcaD,wcaE,wcaF,wcaI,wcaJ,wcaK,wcaL,wcaM,wzc,wzxC,wzzB,wzzE,yaeI,yciA,ydiF,ydiR,yegS,yheT,ynbA,ynjF,yqeF,	cellular lipid metabolic process
+GO:0030258	5	7	cfa,cysQ,lpp,murG,pgpA,suhB,yegS,	lipid modification
+GO:0046839	6	1	pgpA,	phospholipid dephosphorylation
+GO:0046834	6	3	cysQ,suhB,yegS,	lipid phosphorylation
+GO:0046854	7	2	cysQ,suhB,	phosphatidylinositol phosphorylation
+GO:0030259	6	1	murG,	lipid glycosylation
+GO:0008653	5	75	ais,arnA,arnB,arnC,arnD,arnE,arnF,arnT,cpsB,cpsG,eptA,eptB,eptC,etk,fepE,galF,glf,glmU,gmhA,gmhB,gmm,gutQ,hldE,kdsA,kdsB,kdsC,kdsD,lapA,lapB,lpxL,lpxM,lpxP,lpxT,rfaD,rfbA,rfbB,rfbC,rfbD,rfbX,rfe,rffG,ugd,waaA,waaB,waaC,waaF,waaG,waaJ,waaL,waaO,waaP,waaQ,waaS,waaU,waaY,waaZ,wbbH,wbbI,wbbJ,wbbK,wcaA,wcaB,wcaC,wcaD,wcaE,wcaF,wcaI,wcaJ,wcaK,wcaL,wcaM,wzc,wzxC,wzzB,wzzE,	lipopolysaccharide metabolic process
+GO:0006631	5	50	aas,accA,accB,accC,accD,acpH,acpP,acpS,acpT,ahr,atoA,atoB,atoD,cfa,fabA,fabB,fabD,fabF,fabG,fabH,fabI,fabR,fabZ,fadA,fadB,fadD,fadE,fadH,fadI,fadJ,fadK,fadM,fadR,fixB,gnsB,lipA,lipB,oxc,paaF,paaG,paaH,paaJ,plsB,plsX,scpB,tesB,yciA,ydiF,ydiR,yqeF,	fatty acid metabolic process
+GO:0006633	6	22	accA,accB,accC,accD,acpH,acpP,acpS,acpT,cfa,fabA,fabB,fabD,fabF,fabG,fabH,fabI,fabR,fabZ,gnsB,lipA,lipB,plsX,	fatty acid biosynthetic process
+GO:0030497	7	2	fabG,fabI,	fatty acid elongation
+GO:0009107	6	2	lipA,lipB,	lipoate biosynthetic process
+GO:0042759	7	2	accA,accD,	long-chain fatty acid biosynthetic process
+GO:0006636	7	1	gnsB,	unsaturated fatty acid biosynthetic process
+GO:0001676	6	3	accA,accD,fadD,	long-chain fatty acid metabolic process
+GO:0009062	6	19	atoB,fadA,fadB,fadD,fadE,fadH,fadI,fadJ,fadK,fadM,fixB,oxc,paaF,paaG,paaJ,scpB,tesB,ydiR,yqeF,	fatty acid catabolic process
+GO:0006635	7	17	atoB,fadA,fadB,fadD,fadE,fadH,fadI,fadJ,fadK,fadM,fixB,paaF,paaG,paaJ,scpB,ydiR,yqeF,	fatty acid beta-oxidation
+GO:0033539	8	3	fadE,fixB,ydiR,	fatty acid beta-oxidation using acyl-CoA dehydrogenase
+GO:0033542	8	2	fadH,fadI,	fatty acid beta-oxidation, unsaturated, even number
+GO:0033543	9	1	fadH,	fatty acid beta-oxidation, unsaturated, even number, reductase/isomerase pathway
+GO:0001561	7	1	oxc,	fatty acid alpha-oxidation
+GO:0009106	5	2	lipA,lipB,	lipoate metabolic process
+GO:0046459	6	3	atoA,atoD,ydiF,	short-chain fatty acid metabolic process
+GO:0019395	6	19	atoB,fadA,fadB,fadD,fadE,fadH,fadI,fadJ,fadK,fadM,fadR,fixB,oxc,paaF,paaG,paaJ,scpB,ydiR,yqeF,	fatty acid oxidation
+GO:0006644	5	59	aas,acpP,arnA,arnB,arnC,arnD,arnE,arnF,arnT,cdh,cdsA,clsA,clsB,clsC,dgkA,dxr,dxs,eptA,eptB,fabZ,fadD,glmU,gpsA,idi,ispA,ispD,ispE,ispF,ispG,ispH,lplT,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxM,lpxP,lpxT,pagP,pgpA,pgpB,pgpC,pgsA,pldA,plsB,plsC,plsX,plsY,psd,pssA,rssA,waaA,yaeI,yegS,ynbA,ynjF,	phospholipid metabolic process
+GO:0006650	6	17	cdsA,clsA,clsB,clsC,dgkA,gpsA,lplT,pgpA,pgpB,pgpC,pgsA,pldA,plsB,plsC,psd,pssA,rssA,	glycerophospholipid metabolic process
+GO:0046470	7	1	rssA,	phosphatidylcholine metabolic process
+GO:0046474	6	14	cdsA,clsA,clsB,clsC,dgkA,gpsA,pgpA,pgpB,pgpC,pgsA,plsB,plsC,psd,pssA,	glycerophospholipid biosynthetic process
+GO:0016024	7	3	cdsA,plsB,plsC,	CDP-diacylglycerol biosynthetic process
+GO:0006654	7	2	dgkA,plsC,	phosphatidic acid biosynthetic process
+GO:0006646	7	1	psd,	phosphatidylethanolamine biosynthetic process
+GO:0006655	7	8	clsA,clsB,clsC,pgpA,pgpB,pgpC,pgsA,pssA,	phosphatidylglycerol biosynthetic process
+GO:0032049	8	4	clsA,clsB,clsC,pssA,	cardiolipin biosynthetic process
+GO:0046471	7	9	clsA,clsB,clsC,pgpA,pgpB,pgpC,pgsA,pldA,pssA,	phosphatidylglycerol metabolic process
+GO:0008654	5	56	aas,acpP,arnA,arnB,arnC,arnD,arnE,arnF,arnT,cdh,cdsA,clsA,clsB,clsC,dgkA,dxr,dxs,eptA,eptB,fabZ,fadD,glmU,gpsA,idi,ispA,ispD,ispE,ispF,ispG,ispH,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxM,lpxP,lpxT,pagP,pgpA,pgpB,pgpC,pgsA,plsB,plsC,plsX,plsY,psd,pssA,waaA,yaeI,yegS,ynbA,ynjF,	phospholipid biosynthetic process
+GO:0036108	6	2	arnC,arnD,	4-amino-4-deoxy-alpha-L-arabinopyranosyl undecaprenyl phosphate biosynthetic process
+GO:0036104	6	4	lpxL,lpxM,lpxP,waaA,	Kdo2-lipid A biosynthetic process
+GO:0033384	6	1	ispA,	geranyl diphosphate biosynthetic process
+GO:0045337	6	1	ispA,	farnesyl diphosphate biosynthetic process
+GO:0009240	6	8	dxr,dxs,idi,ispD,ispE,ispF,ispG,ispH,	isopentenyl diphosphate biosynthetic process
+GO:0019288	7	7	dxr,dxs,ispD,ispE,ispF,ispG,ispH,	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway
+GO:0051484	8	1	dxr,	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway involved in terpenoid biosynthetic process
+GO:0009245	6	24	acpP,arnA,arnB,arnC,arnD,arnE,arnF,arnT,eptA,eptB,fabZ,glmU,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxP,lpxT,pagP,waaA,yaeI,	lipid A biosynthetic process
+GO:0050992	6	2	idi,ispH,	dimethylallyl diphosphate biosynthetic process
+GO:0046493	6	24	acpP,arnA,arnB,arnC,arnD,arnE,arnF,arnT,eptA,eptB,fabZ,glmU,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxP,lpxT,pagP,waaA,yaeI,	lipid A metabolic process
+GO:0009395	6	3	pgpA,pgpB,pgpC,	phospholipid catabolic process
+GO:0008202	5	1	hdhA,	steroid metabolic process
+GO:0016042	5	11	fadA,fadB,fadI,fadJ,hdhA,pgpA,pgpB,pgpC,pldA,rssA,yjjU,	lipid catabolic process
+GO:0008610	5	136	aas,accA,accB,accC,accD,acpH,acpP,acpS,acpT,arnA,arnB,arnC,arnD,arnE,arnF,arnT,cdh,cdsA,cfa,clsA,clsB,clsC,cpsB,cpsG,dgkA,dxr,dxs,elbB,eptA,eptB,eptC,etk,fabA,fabB,fabD,fabF,fabG,fabH,fabI,fabR,fabZ,fadD,fepE,galF,glf,glmU,gmhA,gmhB,gmm,gnsB,gpsA,gutQ,hldE,idi,ispA,ispB,ispD,ispE,ispF,ispG,ispH,kdsA,kdsB,kdsC,kdsD,lipA,lipB,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxM,lpxP,lpxT,pagP,pgpA,pgpB,pgpC,pgsA,plsB,plsC,plsX,plsY,psd,pssA,rfaD,rfbA,rfbB,rfbC,rfbD,rfbX,rfe,rffG,ugd,uppS,waaA,waaB,waaC,waaF,waaG,waaJ,waaL,waaO,waaP,waaQ,waaS,waaU,waaY,waaZ,wbbH,wbbI,wbbJ,wbbK,wcaA,wcaB,wcaC,wcaD,wcaE,wcaF,wcaI,wcaJ,wcaK,wcaL,wcaM,wzc,wzxC,wzzB,wzzE,yaeI,yajO,yegS,ynbA,ynjF,	lipid biosynthetic process
+GO:0008299	5	15	arnC,arnD,dxr,dxs,elbB,idi,ispA,ispB,ispD,ispE,ispF,ispG,ispH,uppS,yajO,	isoprenoid biosynthetic process
+GO:0016094	6	2	ispB,uppS,	polyprenol biosynthetic process
+GO:1902767	6	1	yajO,	isoprenoid biosynthetic process via mevalonate
+GO:0016114	6	10	arnC,arnD,dxr,dxs,ispA,ispD,ispE,ispF,ispG,ispH,	terpenoid biosynthetic process
+GO:0006082	4	7	ackA,cynS,cynT,cynX,garK,glxK,tdcD,	organic acid metabolic process
+GO:0031388	5	2	garK,glxK,	organic acid phosphorylation
+GO:0009439	5	3	cynS,cynT,cynX,	cyanate metabolic process
+GO:0009440	6	3	cynS,cynT,cynX,	cyanate catabolic process
+GO:0018937	4	1	nemA,	nitroglycerin metabolic process
+GO:0019674	3	1	nadK,	NAD metabolic process
+GO:1901275	3	1	ttdA,	tartrate metabolic process
+GO:0009058	3	247	aas,acpP,ahpC,alaA,alaC,arnA,arnB,arnC,arnD,arnE,arnF,arnT,aroF,aroG,aroH,aspC,avtA,bioA,bioB,bioC,bioD,bioD2,bioF,bioH,birA,btuR,cdh,cdsA,citC,citG,citX,clsA,clsB,clsC,coaA,coaD,coaE,cobC,cobS,cobT,cobU,cpsB,csdA,cvpA,cyaY,cyoE,cysC,cysD,cysG,cysH,cysI,cysJ,cysN,dcuA,dfp,dgkA,dkgA,dkgB,dxr,dxs,elbB,entA,entC,entE,entF,epd,eptA,eptB,erpA,eutT,fabG,fabI,fabZ,fadD,fau,fdhD,fdx,fliI,fmt,folA,folB,folC,folE,folK,folM,folP,fpr,galF,galU,ggt,glgC,glmU,gltX,gpsA,gshA,gshB,hemA,hemB,hemC,hemD,hemE,hemF,hemG,hemH,hemL,hemN,hemW,hemY,hisC,hldE,hscA,hypB,idi,iscA,iscS,iscU,iscX,ispA,ispB,ispD,ispE,ispF,ispG,ispH,kbl,kdsA,lipA,lipB,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxM,lpxP,lpxT,malY,menF,metF,metK,moaA,moaB,moaC,moaD,moaE,mobA,mobB,mocA,moeA,moeB,mog,mpl,mrp,murC,murD,murE,murF,nadA,nadB,nadC,nadD,nadE,nadR,napA,nfuA,nudB,pabA,pabB,pabC,pagP,panB,panC,panD,panE,panZ,pdxA,pdxB,pdxH,pdxJ,pdxK,pdxY,pgpA,pgpB,pgpC,pgsA,plsB,plsC,plsX,plsY,pncA,pncB,pncC,ppk,prs,psd,pssA,purC,purN,purU,rfbA,rffH,rffM,ribF,serC,sufA,sufB,sufC,sufD,sufE,sufS,thiC,thiD,thiE,thiF,thiG,thiH,thiI,thiK,thiL,thiM,thiS,trpD,trpE,tusA,tyrB,ubiX,uppS,waaA,xapA,yaeI,yajO,ybdL,ybdZ,ydcR,yddE,yegS,yfdG,ygfZ,yhfS,yjiR,ynbA,ynfK,ynjF,yqeC,ytfE,	biosynthetic process
+GO:0044249	4	208	aas,acpP,ahpC,arnA,arnB,arnC,arnD,arnE,arnF,arnT,bioA,bioB,bioC,bioD,bioD2,bioF,bioH,birA,btuR,cdh,cdsA,citG,citX,clsA,clsB,clsC,coaA,coaD,coaE,cobC,cobS,cobT,cobU,csdA,cvpA,cyaY,cyoE,cysC,cysD,cysG,cysH,cysI,cysJ,cysN,dcuA,dfp,dgkA,dkgA,dkgB,dxr,dxs,elbB,entA,entE,epd,eptA,eptB,erpA,eutT,fabG,fabI,fabZ,fadD,fau,fdhD,fdx,folA,folB,folC,folE,folK,folM,folP,fpr,ggt,glmU,gltX,gpsA,gshA,gshB,hemA,hemB,hemC,hemD,hemE,hemF,hemG,hemH,hemL,hemN,hemW,hemY,hscA,hypB,idi,iscA,iscS,iscU,iscX,ispA,ispB,ispD,ispE,ispF,ispG,ispH,lipA,lipB,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxM,lpxP,lpxT,metF,metK,moaA,moaB,moaC,moaD,moaE,mobA,mobB,mocA,moeA,moeB,mog,mrp,nadA,nadB,nadC,nadD,nadE,nadR,napA,nfuA,nudB,pabA,pabB,pabC,pagP,panB,panC,panD,panE,panZ,pdxA,pdxB,pdxH,pdxJ,pdxK,pdxY,pgpA,pgpB,pgpC,pgsA,plsB,plsC,plsX,plsY,pncA,pncB,pncC,ppk,prs,psd,pssA,purC,purU,ribF,serC,sufA,sufB,sufC,sufD,sufE,sufS,thiC,thiD,thiE,thiF,thiG,thiH,thiI,thiK,thiL,thiM,thiS,trpD,tusA,ubiX,uppS,waaA,xapA,yaeI,yajO,ybdZ,yegS,yfdG,ygfZ,ynbA,ynfK,ynjF,ytfE,	cellular biosynthetic process
+GO:0009403	5	7	cvpA,cysC,cysD,cysH,cysI,cysJ,cysN,	toxin biosynthetic process
+GO:0070814	6	6	cysC,cysD,cysH,cysI,cysJ,cysN,	hydrogen sulfide biosynthetic process
+GO:0044271	5	25	btuR,cobC,cobS,cobT,cobU,cyoE,cysG,dcuA,eutT,gltX,hemA,hemB,hemC,hemD,hemE,hemF,hemG,hemH,hemL,hemN,hemW,hemY,purC,trpD,yfdG,	cellular nitrogen compound biosynthetic process
+GO:0033014	6	23	btuR,cobC,cobS,cobT,cobU,cyoE,cysG,eutT,gltX,hemA,hemB,hemC,hemD,hemE,hemF,hemG,hemH,hemL,hemN,hemW,hemY,purC,yfdG,	tetrapyrrole biosynthetic process
+GO:0006779	6	18	btuR,cobU,cyoE,cysG,gltX,hemA,hemB,hemC,hemD,hemE,hemF,hemG,hemH,hemL,hemN,hemW,hemY,yfdG,	porphyrin-containing compound biosynthetic process
+GO:0006782	7	10	hemA,hemB,hemC,hemD,hemE,hemF,hemG,hemL,hemN,hemW,	protoporphyrinogen IX biosynthetic process
+GO:0019353	8	4	hemA,hemE,hemF,hemN,	protoporphyrinogen IX biosynthetic process from glutamate
+GO:0006780	7	1	hemE,	uroporphyrinogen III biosynthetic process
+GO:0006783	7	9	cyoE,cysG,hemB,hemC,hemE,hemF,hemG,hemH,yfdG,	heme biosynthetic process
+GO:0019354	8	1	cysG,	siroheme biosynthetic process
+GO:0048034	8	1	cyoE,	heme O biosynthetic process
+GO:0009236	6	8	btuR,cobC,cobS,cobT,cobU,cysG,eutT,purC,	cobalamin biosynthetic process
+GO:0019250	7	1	btuR,	aerobic cobalamin biosynthetic process
+GO:0002047	6	1	trpD,	phenazine biosynthetic process
+GO:0006799	5	1	ppk,	polyphosphate biosynthetic process
+GO:0051188	5	138	ahpC,bioA,bioB,bioC,bioD,bioD2,bioF,bioH,birA,btuR,citG,citX,coaA,coaD,coaE,cobC,cobS,cobT,cobU,csdA,cyaY,cyoE,cysG,dfp,dkgA,dkgB,dxs,entA,entE,epd,erpA,eutT,fabG,fabI,fau,fdhD,fdx,folA,folB,folC,folE,folK,folM,folP,fpr,ggt,gltX,gshA,gshB,hemA,hemB,hemC,hemD,hemE,hemF,hemG,hemH,hemL,hemN,hemW,hemY,hscA,hypB,iscA,iscS,iscU,iscX,lipA,lipB,metF,metK,moaA,moaB,moaC,moaD,moaE,mobA,mobB,mocA,moeA,moeB,mog,mrp,nadA,nadB,nadC,nadD,nadE,nadR,napA,nfuA,nudB,pabA,pabB,pabC,panB,panC,panD,panE,panZ,pdxA,pdxB,pdxH,pdxJ,pdxK,pdxY,pncA,pncB,pncC,purC,purU,ribF,serC,sufA,sufB,sufC,sufD,sufE,sufS,thiC,thiD,thiE,thiF,thiG,thiH,thiI,thiK,thiL,thiM,thiS,tusA,ubiX,xapA,ybdZ,yfdG,ygfZ,ynfK,ytfE,	cofactor biosynthetic process
+GO:0009108	6	83	bioA,bioB,bioC,bioD,bioD2,bioF,bioH,birA,coaA,coaD,coaE,dfp,dkgA,dkgB,epd,fabG,fabI,fau,fdhD,folA,folB,folC,folE,folK,folM,folP,lipA,lipB,metF,metK,moaA,moaB,moaC,moaD,moaE,mobA,mobB,mocA,moeA,moeB,mog,nadA,nadB,nadC,nadD,nadE,nadR,napA,nudB,pabA,pabB,pabC,panB,panC,panD,panE,panZ,pdxA,pdxB,pdxH,pdxK,pdxY,pncA,pncB,pncC,purU,ribF,serC,thiC,thiD,thiE,thiF,thiG,thiH,thiI,thiK,thiL,thiM,thiS,tusA,ubiX,xapA,ynfK,	coenzyme biosynthetic process
+GO:0009102	6	11	bioA,bioB,bioC,bioD,bioD2,bioF,bioH,birA,fabG,fabI,ynfK,	biotin biosynthetic process
+GO:0009229	7	11	thiC,thiD,thiE,thiF,thiG,thiH,thiI,thiK,thiL,thiM,thiS,	thiamine diphosphate biosynthetic process
+GO:0019363	7	10	nadA,nadB,nadC,nadD,nadE,nadR,pncA,pncB,pncC,xapA,	pyridine nucleotide biosynthetic process
+GO:0019365	8	5	nadD,nadE,pncA,pncB,xapA,	pyridine nucleotide salvage
+GO:0034355	9	4	nadD,nadE,pncB,xapA,	NAD salvage
+GO:0019357	8	1	pncB,	nicotinate nucleotide biosynthetic process
+GO:0009398	7	1	ribF,	FMN biosynthetic process
+GO:0006729	7	1	folE,	tetrahydrobiopterin biosynthetic process
+GO:0015940	7	5	panB,panC,panD,panE,panZ,	pantothenate biosynthetic process
+GO:0006777	7	14	fdhD,moaA,moaB,moaC,moaD,moaE,mobA,mobB,mocA,moeA,moeB,mog,napA,tusA,	Mo-molybdopterin cofactor biosynthetic process
+GO:1902758	8	1	mobA,	bis(molybdopterin guanine dinucleotide)molybdenum biosynthetic process
+GO:1902760	8	1	mocA,	Mo(VI)-molybdopterin cytosine dinucleotide biosynthetic process
+GO:0009396	7	14	fau,folA,folB,folC,folE,folK,folM,folP,metF,nudB,pabA,pabB,pabC,purU,	folic acid-containing compound biosynthetic process
+GO:0006761	8	1	folC,	dihydrofolate biosynthetic process
+GO:0046901	8	1	folC,	tetrahydrofolylpolyglutamate biosynthetic process
+GO:0046656	8	10	folA,folB,folC,folK,folM,folP,nudB,pabA,pabB,pabC,	folic acid biosynthetic process
+GO:0046654	8	13	folA,folB,folC,folE,folK,folM,folP,metF,nudB,pabA,pabB,pabC,purU,	tetrahydrofolate biosynthetic process
+GO:0009257	9	4	folA,folC,folM,purU,	10-formyltetrahydrofolate biosynthetic process
+GO:0015937	7	4	coaA,coaD,coaE,dfp,	coenzyme A biosynthetic process
+GO:0006556	7	1	metK,	S-adenosylmethionine biosynthetic process
+GO:0042823	7	7	epd,pdxA,pdxB,pdxH,pdxK,pdxY,serC,	pyridoxal phosphate biosynthetic process
+GO:0009443	5	3	pdxH,pdxK,pdxY,	pyridoxal 5'-phosphate salvage
+GO:0036001	8	1	pdxB,	'de novo' pyridoxal 5'-phosphate biosynthetic process
+GO:0016226	5	20	csdA,cyaY,erpA,fdx,fpr,hscA,iscA,iscS,iscU,iscX,mrp,nfuA,sufA,sufB,sufC,sufD,sufE,sufS,ygfZ,ytfE,	iron-sulfur cluster assembly
+GO:0044571	6	1	iscS,	[2Fe-2S] cluster assembly
+GO:0018283	6	1	ytfE,	iron incorporation into metallo-sulfur cluster
+GO:0051191	6	2	citG,citX,	prosthetic group biosynthetic process
+GO:0019290	5	4	ahpC,entA,entE,ybdZ,	siderophore biosynthetic process
+GO:0032324	6	2	moeA,mog,	molybdopterin cofactor biosynthetic process
+GO:0035998	6	1	folE,	7,8-dihydroneopterin 3'-triphosphate biosynthetic process
+GO:0006750	6	3	ggt,gshA,gshB,	glutathione biosynthetic process
+GO:0008615	6	8	dxs,epd,pdxA,pdxB,pdxH,pdxJ,pdxK,serC,	pyridoxine biosynthetic process
+GO:0044550	4	12	ahpC,cvpA,cysC,cysD,cysH,cysI,cysJ,cysN,entA,entE,entF,ybdZ,	secondary metabolite biosynthetic process
+GO:0032259	3	60	ada,bioC,cfa,cheR,cmoM,cysG,dam,dcm,gcvT,hsdM,metE,metH,mmuM,mnmC,ogt,pcm,prmA,prmB,prmC,rlmA,rlmB,rlmC,rlmD,rlmE,rlmF,rlmG,rlmH,rlmI,rlmJ,rlmL,rlmM,rlmN,rsmA,rsmB,rsmC,rsmD,rsmE,rsmF,rsmG,rsmH,rsmI,rsmJ,tam,tehB,thyA,trmA,trmD,trmH,trmI,trmJ,trmL,trmO,ubiE,ubiG,yafE,yafS,yfiC,yfiF,yhdJ,yjtD,	methylation
+GO:0044237	3	921	aas,abgA,abgB,accA,accB,accC,accD,aceA,aceB,aceE,aceF,aceK,ackA,acnA,acnB,acpH,acpP,acpS,acpT,acs,add,adk,agaB,agaI,agaV,agp,ahpC,ahpF,ahr,ais,alsE,alsK,amn,ampC,anmK,apaH,aphA,appA,appB,appC,apt,araB,arcB,argB,arnA,arnB,arnC,arnD,arnE,arnF,arnT,aroA,aroB,aroC,aroD,aroE,aroF,aroG,aroH,aroK,aroL,ascF,asd,atoA,atoB,atoD,atoS,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,azoR,bacA,baeS,barA,basS,bcsA,bcsB,bglF,bioA,bioB,bioC,bioD,bioD2,bioF,bioH,birA,bisC,btsS,btuR,carA,carB,cbl,cca,ccp,cdd,cdh,cdsA,cfa,chaC,chbB,cheA,cheB,cheW,cheY,cheZ,citG,citX,clsA,clsB,clsC,cmk,cmtA,cmtB,coaA,coaD,coaE,cobC,cobS,cobT,cobU,codA,cof,cpdB,cpsB,cpsG,cpxA,cra,creC,crr,csdA,cusS,cvpA,cyaA,cyaY,cybB,cydA,cydB,cydX,cynS,cynT,cynX,cyoA,cyoB,cyoC,cyoD,cyoE,cysB,cysC,cysD,cysE,cysG,cysH,cysI,cysJ,cysK,cysM,cysN,cysP,cysQ,cysZ,cyuA,cyuP,dcd,dcuA,dcuS,dcyD,decR,deoA,deoB,deoC,deoD,dfp,dgkA,dgoA,dgoD,dgoK,dgt,dhaK,dhaL,dhaM,dinG,dkgA,dkgB,dld,dmsA,dmsC,dpiB,dsbD,dut,dxr,dxs,edd,elbB,emrE,eno,entA,entE,envZ,epd,eptA,eptB,eptC,era,erpA,etk,etp,eutT,evgS,fabA,fabB,fabD,fabF,fabG,fabH,fabI,fabR,fabZ,fadA,fadB,fadD,fadE,fadH,fadI,fadJ,fadK,fadM,fadR,fau,fbaA,fbaB,fbp,fcl,fdhD,fdhF,fdnG,fdnH,fdnI,fdoG,fdoH,fdoI,fdrA,fdx,fepE,fixA,fixB,fldA,fldB,fliI,fmt,folA,folB,folC,folD,folE,folK,folM,folP,folX,fpr,frdA,frdB,frlB,frlD,frmA,frmB,fruA,fruB,fruK,frvA,frvB,frvR,frwB,frwD,fryA,fryB,fucK,fumA,fumB,galF,galK,galT,galU,gapA,garK,gatA,ggt,ghrB,glcB,gldA,glf,glk,glmM,glmS,glmU,glnL,gloA,gloB,gloC,glpC,glpD,glpK,glpX,glrK,gltX,glvB,glxK,glyA,gmd,gmhA,gmhB,gmk,gmm,gnd,gnsB,gntK,gntP,gntR,gntT,gor,gph,gpmA,gpmM,gpp,gpr,gpsA,gpt,grxA,grxB,grxC,grxD,gshA,gshB,gsk,gss,guaA,guaB,guaC,gudX,gutQ,hcaB,hcaC,hcaD,hcaE,hcaF,hchA,hcr,hemA,hemB,hemC,hemD,hemE,hemF,hemG,hemH,hemL,hemN,hemW,hemY,hflX,hipA,hisA,hisB,hisC,hisD,hisF,hisG,hisH,hisI,hisL,hldE,hprS,hpt,hscA,hxpA,hxpB,hyaA,hyaB,hyaC,hycC,hydN,hyfB,hypB,icd,iclR,idi,idnD,idnK,idnO,idnT,infA,infB,infC,iscA,iscS,iscU,iscX,ispA,ispB,ispD,ispE,ispF,ispG,ispH,katE,katG,kdgK,kdpD,kdsA,kdsB,kdsC,kdsD,kefF,kefG,lapA,lapB,ldcA,lgoD,lgoR,lipA,lipB,lpd,lplT,lpp,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxM,lpxP,lpxT,lsrK,lysC,lyxK,mak,malS,malX,malY,malZ,manA,manX,mdh,metA,metB,metC,metE,metF,metH,metJ,metK,metL,metR,mhpA,mhpB,mhpC,mhpD,mhpE,mhpF,mhpR,mmuM,mmuP,mngA,moaA,moaB,moaC,moaD,moaE,mobA,mobB,mocA,moeA,moeB,mog,mpaA,mrp,msrQ,mtlA,mtn,murA,murG,murP,nadA,nadB,nadC,nadD,nadE,nadK,nadR,nagA,nagB,nagE,nagK,nanA,nanE,nanK,napA,napC,narG,narH,narI,narQ,narV,narX,narY,narZ,ndh,ndk,nemA,nfuA,nnr,norV,npr,nrdA,nrdB,nrdD,nrdE,nrdF,nrdG,nrdH,nrfA,nrfB,nrfC,nrfD,nudB,nudE,nudF,nudK,nudL,nuoE,nuoG,nuoK,nuoL,nuoM,nuoN,opgB,otsA,otsB,oxc,paaA,paaB,paaC,paaD,paaE,paaF,paaG,paaH,paaI,paaJ,paaK,paaX,paaY,paaZ,pabA,pabB,pabC,pagP,panB,panC,panD,panE,panZ,paoA,pdxA,pdxB,pdxH,pdxJ,pdxK,pdxY,pepA,pepB,pepD,pepN,pepQ,pepT,pfkA,pfkB,pgi,pgk,pgl,pgpA,pgpB,pgpC,pgsA,pheA,phnN,phoA,phoQ,phoR,pldA,plsB,plsC,plsX,plsY,pncA,pncB,pncC,pntA,pntB,polA,ppa,pphA,pphB,pphC,ppk,ppsA,ppsR,pptA,ppx,prkB,proB,prs,psd,pssA,psuK,pta,ptsA,ptsG,ptsH,ptsI,ptsN,ptsP,purA,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purR,purT,purU,pykA,pykF,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,pyrI,pyrL,pyrS,qseC,rbsK,rclA,rcsC,rcsD,rdgB,recQ,relA,rfaD,rfbA,rfbB,rfbC,rfbD,rfbX,rfe,rffG,rhaB,ribF,rihA,rihB,rihC,rnd,rpe,rpiA,rpiB,rpmE,rssA,rstB,rsxA,rsxB,rsxC,rsxD,rsxE,rsxG,sbp,scpB,sdhA,sdhB,sdhC,sdhD,selD,selU,serB,serC,sgcA,sgcB,sgcE,sixA,spoT,srkA,srlB,srlE,sseA,ssuA,ssuB,ssuC,ssuD,ssuE,sthA,sucA,sucD,sufA,sufB,sufC,sufD,sufE,sufS,suhB,talA,talB,tauD,tdcD,tdk,tesB,thiC,thiD,thiE,thiF,thiG,thiH,thiI,thiK,thiL,thiM,thiS,thrA,thrB,thyA,tktA,tktB,tmk,tnaA,tnaB,torA,torC,torS,torY,torZ,tpiA,treB,trpA,trpB,trpC,trpD,trpE,trpL,tsaE,tusA,tyrA,tyrB,tyrR,ubiB,ubiX,udk,udp,ugd,uhpB,uidA,ulaB,ulaC,umpG,umpH,upp,uppS,ushA,uspG,waaA,waaB,waaC,waaF,waaG,waaJ,waaL,waaO,waaP,waaQ,waaS,waaU,waaY,waaZ,wbbH,wbbI,wbbJ,wbbK,wcaA,wcaB,wcaC,wcaD,wcaE,wcaF,wcaI,wcaJ,wcaK,wcaL,wcaM,wzb,wzc,wzxC,wzzB,wzzE,xapA,xapB,xdhC,xylB,yadI,yaeI,yagE,yagF,yahF,yahI,yajL,yajO,ybcF,ybdZ,ybhA,ybiA,ybiB,ybiV,ybjI,ycaK,ycbX,ycdX,yceJ,yciA,yciH,yciV,ydbK,ydhU,ydhV,ydiB,ydiF,ydiQ,ydiR,ydjH,yeaE,yeaG,yeaW,yeaX,yedP,yegI,yegS,yegV,yegX,yeiG,yeiI,yfaE,yfaU,yfbR,yfcF,yfdG,yfdR,ygbK,ygcE,ygcQ,ygcR,ygfZ,yggC,yggF,ygiD,ygjP,yhbO,yheT,yhfW,yhgF,yhgH,yibF,yidA,yieF,yieH,yieK,yigB,yigL,yihQ,yihR,yihS,yihT,yihU,yihV,yihX,yiiM,yjcS,yjhG,yjhH,yjjG,yjjJ,yjjX,ymdB,ynbA,ynbD,ynfE,ynfF,ynfH,ynfK,yniA,ynjE,ynjF,yoaA,yodB,yqaB,yqeA,yqeF,yqgF,yrfG,ytfE,ytjC,zraS,zwf,	cellular metabolic process
+GO:0006413	4	6	fmt,infA,infB,infC,rpmE,yciH,	translational initiation
+GO:0044248	4	107	acs,agaI,ahpC,alsK,ampC,chaC,codA,cof,dgoA,dgoD,dgoK,dhaK,dkgA,dkgB,edd,fadA,frmA,frmB,ggt,ghrB,gldA,gloA,gloB,gloC,gnd,gntK,gntP,gntR,gntT,gpr,gudX,hcaB,hcaC,hcaD,hcaE,hcaF,hchA,idnD,idnK,idnO,idnT,katE,katG,ldcA,lgoD,lgoR,malS,malZ,mhpA,mhpB,mhpC,mhpD,mhpE,mhpF,mhpR,mpaA,nagA,nagB,nanA,nanE,nanK,paaA,paaB,paaC,paaD,paaE,paaF,paaG,paaH,paaI,paaJ,paaK,paaX,paaY,paaZ,pepA,pepB,pepD,pepN,pepQ,pepT,pfkA,ppx,pta,ssuD,ssuE,tauD,tyrR,uidA,yagE,yagF,ybhA,ycbX,yeaE,yegX,yeiG,yhbO,yieK,yihQ,yihR,yihS,yihT,yihU,yihV,yiiM,yjhG,yjhH,	cellular catabolic process
+GO:0042182	5	11	dhaK,dkgA,dkgB,gldA,gloA,gloB,gloC,gpr,hchA,yeaE,yhbO,	ketone catabolic process
+GO:0051596	6	10	dkgA,dkgB,gldA,gloA,gloB,gloC,gpr,hchA,yeaE,yhbO,	methylglyoxal catabolic process
+GO:0061727	7	5	gloA,gloB,gloC,hchA,yhbO,	methylglyoxal catabolic process to lactate
+GO:0019243	8	4	gloA,gloB,gloC,hchA,	methylglyoxal catabolic process to D-lactate via S-lactoyl-glutathione
+GO:0019439	5	30	codA,fadA,hcaB,hcaC,hcaD,hcaE,hcaF,mhpA,mhpB,mhpC,mhpD,mhpE,mhpF,mhpR,paaA,paaB,paaC,paaD,paaE,paaF,paaG,paaH,paaI,paaJ,paaK,paaX,paaY,paaZ,tyrR,ybhA,	aromatic compound catabolic process
+GO:0019622	6	3	mhpA,mhpB,mhpC,	3-(3-hydroxy)phenylpropionate catabolic process
+GO:0032361	6	1	ybhA,	pyridoxal phosphate catabolic process
+GO:0006209	6	1	codA,	cytosine catabolic process
+GO:0046271	6	1	mhpB,	phenylpropanoid catabolic process
+GO:0010124	6	15	fadA,paaA,paaB,paaC,paaD,paaE,paaF,paaG,paaH,paaI,paaJ,paaK,paaX,paaY,paaZ,	phenylacetate catabolic process
+GO:0019380	6	11	hcaB,hcaC,hcaD,hcaE,hcaF,mhpA,mhpB,mhpC,mhpD,mhpE,mhpF,	3-phenylpropionate catabolic process
+GO:0043171	5	10	chaC,ggt,ldcA,mpaA,pepA,pepB,pepD,pepN,pepQ,pepT,	peptide catabolic process
+GO:0006751	6	2	chaC,ggt,	glutathione catabolic process
+GO:0009050	6	2	ldcA,mpaA,	glycopeptide catabolic process
+GO:0006798	5	1	ppx,	polyphosphate catabolic process
+GO:0044273	5	11	chaC,ggt,ssuD,ssuE,tauD,yihQ,yihR,yihS,yihT,yihU,yihV,	sulfur compound catabolic process
+GO:0046306	6	2	ssuD,ssuE,	alkanesulfonate catabolic process
+GO:1902777	6	6	yihQ,yihR,yihS,yihT,yihU,yihV,	6-sulfoquinovose(1-) catabolic process
+GO:0061720	6	5	yihQ,yihS,yihT,yihU,yihV,	6-sulfoquinovose(1-) catabolic process to glycerone phosphate and 3-sulfolactaldehyde
+GO:0009407	5	18	fadA,paaA,paaB,paaC,paaD,paaE,paaF,paaG,paaH,paaI,paaJ,paaK,paaX,paaY,paaZ,ycbX,yihU,yiiM,	toxin catabolic process
+GO:0017001	5	29	acs,agaI,ahpC,alsK,ampC,cof,frmA,frmB,hcaB,hcaC,hcaD,hcaE,hcaF,katE,katG,mhpA,mhpB,mhpC,mhpD,mhpE,mhpF,nagA,nagB,nanA,nanE,nanK,pta,yeiG,yieK,	antibiotic catabolic process
+GO:0045733	6	2	acs,pta,	acetate catabolic process
+GO:0042744	6	3	ahpC,katE,katG,	hydrogen peroxide catabolic process
+GO:0046294	6	3	frmA,frmB,yeiG,	formaldehyde catabolic process
+GO:0006730	4	12	fau,folA,folC,folD,folE,folM,glyA,metE,metF,metH,metK,purU,	one-carbon metabolic process
+GO:0035999	5	6	fau,folD,glyA,metE,metF,metH,	tetrahydrofolate interconversion
+GO:0006790	4	91	asd,bioA,bioB,bioC,bioD,bioD2,bioF,bioH,birA,cbl,chaC,csdA,cyaY,cysB,cysC,cysD,cysE,cysH,cysI,cysJ,cysK,cysM,cysN,cysP,cysQ,cysZ,cyuA,cyuP,dcyD,decR,erpA,fabG,fabI,fdx,folD,fpr,ggt,gor,gshA,gshB,gss,hscA,iscA,iscS,iscU,iscX,lipA,lipB,malY,metA,metB,metC,metE,metF,metH,metJ,metL,metR,mmuM,mmuP,mrp,mtn,nfuA,sbp,sseA,ssuA,ssuB,ssuC,ssuD,ssuE,sufA,sufB,sufC,sufD,sufE,sufS,tauD,wcaB,yfcF,ygfZ,yibF,yihQ,yihR,yihS,yihT,yihU,yihV,yjcS,ynfK,ynjE,ytfE,	sulfur compound metabolic process
+GO:0006768	5	11	bioA,bioB,bioC,bioD,bioD2,bioF,bioH,birA,fabG,fabI,ynfK,	biotin metabolic process
+GO:0019419	4	2	cysD,cysH,	sulfate reduction
+GO:0019379	5	1	cysH,	sulfate assimilation, phosphoadenylyl sulfate reduction by phosphoadenylyl-sulfate reductase (thioredoxin)
+GO:0050427	5	1	cysQ,	3'-phosphoadenosine 5'-phosphosulfate metabolic process
+GO:0031162	5	2	sufE,sufS,	sulfur incorporation into metallo-sulfur cluster
+GO:0000096	5	32	asd,cbl,csdA,cysB,cysE,cysI,cysJ,cysK,cysM,cysZ,cyuA,cyuP,dcyD,decR,folD,malY,metA,metB,metC,metE,metF,metH,metJ,metL,metR,mmuM,mmuP,mtn,sseA,sufS,wcaB,ynjE,	sulfur amino acid metabolic process
+GO:0006555	6	15	asd,folD,malY,metA,metB,metC,metE,metF,metH,metJ,metL,metR,mmuM,mmuP,mtn,	methionine metabolic process
+GO:0009086	7	15	asd,folD,malY,metA,metB,metC,metE,metF,metH,metJ,metL,metR,mmuM,mmuP,mtn,	methionine biosynthetic process
+GO:0050667	6	5	metB,metE,metH,sseA,ynjE,	homocysteine metabolic process
+GO:0019346	7	3	metB,sseA,ynjE,	transsulfuration
+GO:0006534	6	17	cbl,cysB,cysE,cysI,cysJ,cysK,cysM,cysZ,cyuA,cyuP,dcyD,decR,metB,sseA,sufS,wcaB,ynjE,	cysteine metabolic process
+GO:0019344	7	10	cbl,cysB,cysE,cysI,cysJ,cysK,cysM,cysZ,metB,wcaB,	cysteine biosynthetic process
+GO:0006535	8	4	cysE,cysK,cysM,wcaB,	cysteine biosynthetic process from serine
+GO:0019343	8	1	metB,	cysteine biosynthetic process via cystathionine
+GO:0009093	7	4	cyuA,cyuP,dcyD,decR,	cysteine catabolic process
+GO:0019447	8	1	dcyD,	D-cysteine catabolic process
+GO:0006749	5	8	chaC,ggt,gor,gshA,gshB,gss,yfcF,yibF,	glutathione metabolic process
+GO:0033477	5	1	mmuM,	S-methylmethionine metabolic process
+GO:0033528	6	1	mmuM,	S-methylmethionine cycle
+GO:0000103	5	8	cysC,cysD,cysH,cysI,cysJ,cysN,cysQ,cysZ,	sulfate assimilation
+GO:0018909	5	1	yjcS,	dodecyl sulfate metabolic process
+GO:0006793	4	421	aas,aceE,aceF,aceK,ackA,acpP,add,adk,agaB,agaI,agaV,agp,ais,alsK,amn,anmK,aphA,appA,appB,appC,apt,araB,arcB,argB,arnA,arnB,arnC,arnD,arnE,arnF,arnT,aroK,aroL,ascF,atoS,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,bacA,baeS,barA,basS,bcsA,bcsB,bglF,btsS,carA,carB,cca,cdh,cdsA,chbB,cheA,cheB,cheW,cheY,cheZ,citG,clsA,clsB,clsC,cmk,cmtA,cmtB,coaA,coaD,coaE,cobC,cobU,cof,cpdB,cpxA,cra,creC,crr,cusS,cyaA,cydA,cydB,cydX,cysC,cysQ,dcd,dcuS,deoB,deoC,dfp,dgkA,dgoK,dhaK,dhaL,dhaM,dpiB,dut,dxr,dxs,eno,envZ,eptA,eptB,era,etk,etp,evgS,fabZ,fadD,fbaA,fbaB,fbp,fdrA,fepE,fliI,folD,folE,folK,frlB,frlD,fruA,fruB,fruK,frvA,frvB,frvR,frwB,frwD,fryA,fryB,fucK,galF,galK,galT,galU,gapA,garK,gatA,glk,glmM,glmS,glmU,glnL,glpK,glpX,glrK,glvB,glxK,gmhB,gmk,gnd,gntK,gph,gpmA,gpmM,gpp,gpsA,gpt,grxA,grxC,gsk,guaA,guaB,guaC,hchA,hflX,hipA,hisB,hldE,hprS,hpt,hxpA,hxpB,idi,idnK,ispA,ispD,ispE,ispF,ispG,ispH,kdgK,kdpD,kdsC,lpd,lplT,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxM,lpxP,lpxT,lsrK,lysC,lyxK,mak,malX,manX,mdh,metL,mngA,mobA,mocA,mtlA,murP,nadA,nadB,nadC,nadD,nadE,nadK,nadR,nagB,nagE,nagK,nanK,narQ,narX,ndk,npr,nrdA,nrdB,nrdD,nrdE,nrdF,nudE,nudF,nudK,nudL,otsA,otsB,pagP,pdxK,pdxY,pfkA,pfkB,pgi,pgk,pgl,pgpA,pgpB,pgpC,pgsA,phnN,phoA,phoQ,phoR,pldA,plsB,plsC,plsX,plsY,pncA,pncB,pncC,ppa,pphA,pphB,pphC,ppk,ppsA,ppsR,ppx,prkB,proB,prs,psd,pssA,psuK,ptsA,ptsG,ptsH,ptsI,ptsN,ptsP,purA,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purR,purT,purU,pykA,pykF,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,pyrI,pyrL,pyrS,qseC,rbsK,rcsC,rcsD,rdgB,relA,rhaB,ribF,rpe,rpiA,rpiB,rssA,rstB,selD,serB,sgcA,sgcB,sixA,spoT,srkA,srlB,srlE,sucA,sucD,suhB,talA,talB,tdcD,tdk,thiD,thiK,thiL,thiM,thrA,thrB,thyA,tktA,tktB,tmk,torS,tpiA,treB,tsaE,ubiB,udk,udp,uhpB,ulaB,ulaC,umpG,umpH,upp,ushA,uspG,waaA,waaP,waaY,wzb,wzc,wzzB,wzzE,xapA,xylB,yadI,yaeI,yahF,yahI,yajL,ybcF,ybhA,ybiV,ybjI,ycdX,yciV,ydjH,yeaG,yedP,yegI,yegS,yegV,yeiI,yfbR,yfdR,ygbK,ygcE,yggC,yggF,ygjP,yhbO,yhfW,yidA,yieH,yieK,yigB,yigL,yihQ,yihS,yihT,yihU,yihV,yihX,yjjG,yjjJ,yjjX,ynbA,ynbD,yniA,ynjF,yqaB,yqeA,yrfG,ytjC,zraS,zwf,	phosphorus metabolic process
+GO:0006796	5	413	aas,aceE,aceF,aceK,ackA,acpP,add,adk,agaB,agaV,agp,ais,alsK,amn,anmK,aphA,appA,appB,appC,apt,araB,arcB,argB,arnA,arnB,arnC,arnD,arnE,arnF,arnT,aroK,aroL,ascF,atoS,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,bacA,baeS,barA,basS,bglF,btsS,carA,carB,cca,cdh,cdsA,chbB,cheA,cheB,cheW,cheY,cheZ,citG,clsA,clsB,clsC,cmk,cmtA,cmtB,coaA,coaD,coaE,cobC,cobU,cof,cpdB,cpxA,cra,creC,crr,cusS,cyaA,cydA,cydB,cydX,cysC,cysQ,dcd,dcuS,deoB,deoC,dfp,dgkA,dgoK,dhaK,dhaL,dhaM,dpiB,dut,dxr,dxs,eno,envZ,eptA,eptB,era,etk,etp,evgS,fabZ,fadD,fbaA,fbaB,fbp,fdrA,fepE,fliI,folD,folE,folK,frlB,frlD,fruA,fruB,fruK,frvA,frvB,frvR,frwB,frwD,fryA,fryB,fucK,galK,galT,gapA,garK,gatA,glk,glmM,glmS,glmU,glnL,glpK,glpX,glrK,glvB,glxK,gmhB,gmk,gnd,gntK,gph,gpmA,gpmM,gpp,gpsA,gpt,grxA,grxC,gsk,guaA,guaB,guaC,hchA,hflX,hipA,hisB,hldE,hprS,hpt,hxpA,hxpB,idi,idnK,ispA,ispD,ispE,ispF,ispG,ispH,kdgK,kdpD,kdsC,lpd,lplT,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxM,lpxP,lpxT,lsrK,lysC,lyxK,mak,malX,manX,mdh,metL,mngA,mobA,mocA,mtlA,murP,nadA,nadB,nadC,nadD,nadE,nadK,nadR,nagE,nagK,nanK,narQ,narX,ndk,npr,nrdA,nrdB,nrdD,nrdE,nrdF,nudE,nudF,nudK,nudL,otsA,otsB,pagP,pdxK,pdxY,pfkA,pfkB,pgi,pgk,pgl,pgpA,pgpB,pgpC,pgsA,phnN,phoA,phoQ,phoR,pldA,plsB,plsC,plsX,plsY,pncA,pncB,pncC,ppa,pphA,pphB,pphC,ppk,ppsA,ppsR,prkB,proB,prs,psd,pssA,psuK,ptsA,ptsG,ptsH,ptsI,ptsN,ptsP,purA,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purR,purT,purU,pykA,pykF,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,pyrI,pyrL,pyrS,qseC,rbsK,rcsC,rcsD,rdgB,relA,rhaB,ribF,rpe,rpiA,rpiB,rssA,rstB,selD,serB,sgcA,sgcB,sixA,spoT,srkA,srlB,srlE,sucA,sucD,suhB,talA,talB,tdcD,tdk,thiD,thiK,thiL,thiM,thrA,thrB,thyA,tktA,tktB,tmk,torS,tpiA,treB,tsaE,ubiB,udk,udp,uhpB,ulaB,ulaC,umpG,umpH,upp,ushA,uspG,waaA,waaP,waaY,wzb,wzc,wzzB,wzzE,xapA,xylB,yadI,yaeI,yahF,yahI,yajL,ybcF,ybhA,ybiV,ybjI,ycdX,yciV,ydjH,yeaG,yedP,yegI,yegS,yegV,yeiI,yfbR,yfdR,ygbK,ygcE,yggC,yggF,ygjP,yhbO,yhfW,yidA,yieH,yigB,yigL,yihQ,yihS,yihT,yihU,yihV,yihX,yjjG,yjjJ,yjjX,ynbA,ynbD,yniA,ynjF,yqaB,yqeA,yrfG,ytjC,zraS,zwf,	phosphate-containing compound metabolic process
+GO:0016310	6	193	aceK,ackA,adk,agaB,agaV,alsK,anmK,appB,appC,araB,arcB,argB,aroK,aroL,ascF,atoS,baeS,barA,basS,bglF,btsS,chbB,cheA,cheB,cheW,cheY,citG,cmk,cmtA,cmtB,coaA,coaE,cobU,cpxA,creC,crr,cusS,cydA,cydB,cydX,cysC,cysQ,dcuS,dgkA,dgoK,dhaK,dhaL,dhaM,dpiB,envZ,era,etk,evgS,fepE,folK,frlD,fruA,fruB,fruK,frvA,frvB,frvR,frwB,frwD,fryA,fryB,fucK,galK,galT,garK,gatA,glk,glmM,glnL,glpK,glrK,glvB,glxK,gmk,gntK,gsk,hflX,hipA,hldE,hprS,idnK,ispE,kdgK,kdpD,lpxK,lsrK,lysC,lyxK,mak,malX,manX,metL,mngA,mtlA,murP,nadK,nadR,nagE,nagK,nanK,narQ,narX,ndk,npr,pdxK,pdxY,pfkA,pfkB,pgk,phnN,phoQ,phoR,ppk,ppsA,ppsR,prkB,proB,prs,psuK,ptsA,ptsG,ptsH,ptsI,ptsN,ptsP,purT,pykA,pykF,pyrH,pyrS,qseC,rbsK,rcsC,rcsD,relA,rhaB,ribF,rstB,selD,sgcA,sgcB,spoT,srkA,srlB,srlE,sucD,suhB,tdcD,tdk,thiD,thiK,thiL,thiM,thrA,thrB,tmk,torS,treB,tsaE,ubiB,udk,uhpB,ulaB,ulaC,uspG,waaP,waaY,wzc,wzzB,wzzE,xylB,yadI,yahI,ybcF,ydjH,yeaG,yegI,yegS,yegV,yeiI,ygbK,ygcE,yggC,yihV,yjjJ,yniA,yqeA,zraS,	phosphorylation
+GO:0006119	4	5	appB,appC,cydA,cydB,cydX,	oxidative phosphorylation
+GO:0006468	7	55	aceK,arcB,atoS,baeS,barA,basS,btsS,cheA,cheB,cheW,cheY,cpxA,creC,cusS,dcuS,dpiB,envZ,era,etk,evgS,fepE,glmM,glnL,glrK,hflX,hipA,hprS,kdpD,narQ,narX,npr,phoQ,phoR,ppk,ppsR,ptsP,pyrS,qseC,rcsC,rcsD,rstB,srkA,sucD,torS,tsaE,ubiB,uhpB,uspG,wzc,wzzB,wzzE,yeaG,yegI,yjjJ,zraS,	protein phosphorylation
+GO:0018106	8	30	arcB,atoS,baeS,barA,basS,btsS,cheA,cpxA,creC,cusS,dcuS,dpiB,envZ,evgS,glnL,glrK,hprS,kdpD,narQ,narX,phoQ,phoR,pyrS,qseC,rcsC,rcsD,rstB,torS,uhpB,zraS,	peptidyl-histidine phosphorylation
+GO:0046777	8	31	arcB,atoS,baeS,barA,cheA,cpxA,dpiB,envZ,era,etk,evgS,glmM,glnL,glrK,hflX,hipA,kdpD,narX,phoQ,phoR,ppk,rcsC,rcsD,rstB,sucD,torS,tsaE,uhpB,uspG,wzc,zraS,	protein autophosphorylation
+GO:0038083	9	2	etk,wzc,	peptidyl-tyrosine autophosphorylation
+GO:0036289	9	2	hflX,hipA,	peptidyl-serine autophosphorylation
+GO:0018108	8	5	etk,fepE,wzc,wzzB,wzzE,	peptidyl-tyrosine phosphorylation
+GO:0023014	8	32	arcB,atoS,baeS,barA,basS,btsS,cheA,cheB,cheW,cheY,cpxA,creC,cusS,dcuS,dpiB,envZ,evgS,glnL,glrK,hprS,kdpD,narQ,narX,phoQ,phoR,pyrS,qseC,rcsC,rstB,torS,uhpB,zraS,	signal transduction by protein phosphorylation
+GO:0018105	8	3	aceK,hflX,hipA,	peptidyl-serine phosphorylation
+GO:0006753	6	127	aceE,aceF,add,adk,amn,apt,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,carA,carB,cdsA,cmk,coaA,coaD,coaE,cpdB,cra,cyaA,dcd,deoB,deoC,dfp,dut,eno,fbaA,fbaB,fdrA,fliI,folD,gapA,glk,gmk,gpmA,gpmM,gpp,gpt,grxA,grxC,gsk,guaA,guaB,guaC,hchA,hpt,lpd,mdh,mobA,mocA,nadA,nadB,nadC,nadD,nadE,nadR,ndk,nrdA,nrdB,nrdD,nrdE,nrdF,nudE,nudF,nudK,nudL,pfkA,pfkB,pgi,pgk,plsB,plsC,pncA,pncB,pncC,ppk,prs,purA,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purR,purT,purU,pykA,pykF,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,pyrI,pyrL,rdgB,relA,spoT,sucA,sucD,thyA,tmk,tpiA,udk,udp,upp,ushA,uspG,xapA,yahF,yajL,ygjP,yhbO,yhfW,yjjX,ytjC,	nucleoside phosphate metabolic process
+GO:0009132	7	27	aceE,aceF,cra,eno,fbaA,fbaB,fdrA,gapA,glk,gpmA,gpmM,lpd,mdh,ndk,nudL,pfkA,pfkB,pgi,pgk,ppk,pykA,pykF,sucA,sucD,tpiA,yahF,ytjC,	nucleoside diphosphate metabolic process
+GO:0006165	8	26	aceE,aceF,cra,eno,fbaA,fbaB,fdrA,gapA,glk,gpmA,gpmM,lpd,mdh,ndk,pfkA,pfkB,pgi,pgk,ppk,pykA,pykF,sucA,sucD,tpiA,yahF,ytjC,	nucleoside diphosphate phosphorylation
+GO:0006757	4	22	aceE,aceF,cra,eno,fbaA,fbaB,gapA,glk,gpmA,gpmM,lpd,mdh,pfkA,pfkB,pgi,pgk,ppk,pykA,pykF,sucA,tpiA,ytjC,	ATP generation from ADP
+GO:0009117	7	123	aceE,aceF,add,adk,amn,apt,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,carA,carB,cdsA,cmk,coaA,coaD,coaE,cpdB,cra,cyaA,dcd,deoB,deoC,dfp,dut,eno,fbaA,fbaB,fdrA,fliI,folD,gapA,glk,gmk,gpmA,gpmM,gpp,gpt,grxA,grxC,gsk,guaA,guaB,guaC,hchA,hpt,lpd,mdh,mobA,mocA,nadA,nadB,nadC,nadD,nadE,nadR,ndk,nrdA,nrdB,nrdD,nrdE,nrdF,pfkA,pfkB,pgi,pgk,plsB,plsC,pncA,pncB,pncC,ppk,prs,purA,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purR,purT,purU,pykA,pykF,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,pyrI,pyrL,rdgB,relA,spoT,sucA,sucD,thyA,tmk,tpiA,udk,udp,upp,ushA,uspG,xapA,yahF,yajL,ygjP,yhbO,yhfW,yjjX,ytjC,	nucleotide metabolic process
+GO:0006220	8	20	carA,carB,cdsA,cmk,dut,ndk,plsB,plsC,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,pyrI,pyrL,udk,udp,upp,	pyrimidine nucleotide metabolic process
+GO:0006221	9	18	carA,carB,cdsA,ndk,plsB,plsC,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,pyrI,pyrL,udk,udp,upp,	pyrimidine nucleotide biosynthetic process
+GO:0009220	10	13	carA,carB,ndk,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,udk,udp,upp,	pyrimidine ribonucleotide biosynthetic process
+GO:0006228	11	1	ndk,	UTP biosynthetic process
+GO:0006222	11	10	carA,carB,pyrB,pyrC,pyrD,pyrE,pyrF,udk,udp,upp,	UMP biosynthetic process
+GO:0044205	12	7	carA,carB,pyrB,pyrC,pyrD,pyrE,pyrF,	'de novo' UMP biosynthetic process
+GO:0044206	12	3	udk,udp,upp,	UMP salvage
+GO:0006225	11	1	pyrH,	UDP biosynthetic process
+GO:0009224	11	1	udk,	CMP biosynthetic process
+GO:0006241	11	4	ndk,pyrG,pyrH,udk,	CTP biosynthetic process
+GO:0044210	12	2	pyrG,pyrH,	'de novo' CTP biosynthetic process
+GO:0044211	12	1	udk,	CTP salvage
+GO:0006163	8	45	add,adk,amn,apt,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,coaA,coaD,coaE,cyaA,dfp,fliI,folD,gmk,gpp,gpt,gsk,guaA,guaB,guaC,hpt,ndk,prs,purA,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purR,purT,purU,relA,spoT,	purine nucleotide metabolic process
+GO:0006164	9	43	add,adk,amn,apt,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,coaA,coaD,coaE,cyaA,dfp,fliI,folD,gpp,gpt,gsk,guaA,guaB,hpt,ndk,prs,purA,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purR,purT,purU,relA,spoT,	purine nucleotide biosynthetic process
+GO:0032261	10	7	add,adk,amn,apt,gpt,gsk,hpt,	purine nucleotide salvage
+GO:0044209	11	3	adk,amn,apt,	AMP salvage
+GO:0032265	11	1	gpt,	XMP salvage
+GO:0032263	11	2	gpt,hpt,	GMP salvage
+GO:0032264	11	3	gpt,gsk,hpt,	IMP salvage
+GO:0009152	10	36	adk,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,coaA,coaD,coaE,cyaA,dfp,fliI,gpp,gpt,gsk,guaA,guaB,hpt,ndk,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purT,purU,relA,spoT,	purine ribonucleotide biosynthetic process
+GO:0015970	11	3	gpp,relA,spoT,	guanosine tetraphosphate biosynthetic process
+GO:0006177	11	4	gpt,guaA,guaB,hpt,	GMP biosynthetic process
+GO:0006188	11	15	gpt,gsk,hpt,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purT,purU,	IMP biosynthetic process
+GO:0006189	12	12	purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purT,purU,	'de novo' IMP biosynthetic process
+GO:0006754	4	9	atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,fliI,	ATP biosynthetic process
+GO:0015986	5	8	atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,	ATP synthesis coupled proton transport
+GO:0042777	6	2	atpB,atpG,	plasma membrane ATP synthesis coupled proton transport
+GO:0006172	11	1	adk,	ADP biosynthetic process
+GO:0006171	11	1	cyaA,	cAMP biosynthetic process
+GO:0006183	11	2	guaB,ndk,	GTP biosynthetic process
+GO:0015950	7	3	add,adk,guaC,	purine nucleotide interconversion
+GO:0015951	8	2	adk,guaC,	purine ribonucleotide interconversion
+GO:0009165	8	83	add,adk,amn,apt,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,carA,carB,cdsA,cmk,coaA,coaD,coaE,cyaA,dfp,fliI,folD,gpp,gpt,grxA,grxC,gsk,guaA,guaB,hpt,mobA,mocA,nadA,nadB,nadC,nadD,nadE,nadR,ndk,nrdA,nrdB,nrdD,nrdE,nrdF,plsB,plsC,pncA,pncB,pncC,prs,purA,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purR,purT,purU,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,pyrI,pyrL,relA,spoT,thyA,tmk,udk,udp,upp,uspG,xapA,	nucleotide biosynthetic process
+GO:0046940	9	5	adk,cmk,pyrH,tmk,uspG,	nucleoside monophosphate phosphorylation
+GO:0106044	8	3	hchA,yajL,yhbO,	guanine deglycation
+GO:0106046	9	1	yajL,	guanine deglycation, glyoxal removal
+GO:0009166	8	5	cpdB,deoB,deoC,udp,ushA,	nucleotide catabolic process
+GO:0009264	9	2	deoB,deoC,	deoxyribonucleotide catabolic process
+GO:0016311	6	63	aceK,agp,ais,aphA,appA,bacA,cca,cheZ,cobC,cof,cpdB,cysQ,envZ,etp,fbp,glnL,glpX,gmhB,gph,hisB,hxpA,hxpB,kdpD,kdsC,narX,otsA,otsB,pgpA,pgpB,pgpC,phoA,phoQ,phoR,pphA,pphB,pphC,ppsR,serB,sixA,torS,uhpB,umpG,umpH,ushA,wzb,ybhA,ybiV,ybjI,ycdX,yciV,yedP,yfbR,yfdR,yggF,yidA,yieH,yigB,yigL,yihX,yjjG,ynbD,yqaB,yrfG,	dephosphorylation
+GO:0006470	7	18	aceK,cheZ,envZ,etp,glnL,narX,phoA,phoQ,phoR,pphA,pphB,pphC,ppsR,sixA,torS,uhpB,wzb,ynbD,	protein dephosphorylation
+GO:0070262	8	1	aceK,	peptidyl-serine dephosphorylation
+GO:0035971	8	1	sixA,	peptidyl-histidine dephosphorylation
+GO:0035335	8	3	etp,wzb,ynbD,	peptidyl-tyrosine dephosphorylation
+GO:0110051	4	1	nnr,	metabolite repair
+GO:0043094	4	10	deoB,ggt,pdxH,pdxK,pdxY,thiM,udk,upp,yhfW,yjjG,	cellular metabolic compound salvage
+GO:0008655	5	4	thiM,udk,upp,yjjG,	pyrimidine-containing compound salvage
+GO:0036172	6	1	thiM,	thiamine salvage
+GO:0043100	6	2	upp,yjjG,	pyrimidine nucleobase salvage
+GO:0006223	7	1	upp,	uracil salvage
+GO:0043102	5	1	ggt,	amino acid salvage
+GO:0006725	4	261	abgA,abgB,aceE,aceF,add,adk,agaI,amn,apaH,apt,arnA,aroA,aroB,aroC,aroD,aroE,aroF,aroG,aroH,aroK,aroL,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,bcsA,bcsB,carA,carB,cdd,cdsA,cmk,coaA,coaD,coaE,cobT,codA,cpdB,cpsB,cpsG,cra,cyaA,dcd,deoA,deoB,deoC,deoD,dfp,dgt,dinG,dut,eno,fadA,fau,fbaA,fbaB,fcl,fdrA,fliI,folA,folB,folC,folD,folE,folK,folM,folP,folX,frlB,galF,galU,gapA,glk,glmM,glmS,glmU,glyA,gmd,gmhB,gmk,gpmA,gpmM,gpp,gpt,grxA,grxC,gsk,guaA,guaB,guaC,hcaB,hcaC,hcaD,hcaE,hcaF,hchA,hisA,hisB,hisC,hisD,hisF,hisG,hisH,hisI,hisL,hldE,hpt,kdsB,lpd,manA,mdh,metE,metF,metH,mhpA,mhpB,mhpC,mhpD,mhpE,mhpF,mhpR,mobA,mocA,mtn,murA,nadA,nadB,nadC,nadD,nadE,nadR,nagB,ndk,nrdA,nrdB,nrdD,nrdE,nrdF,nrdG,nudB,nudE,nudF,nudK,nudL,paaA,paaB,paaC,paaD,paaE,paaF,paaG,paaH,paaI,paaJ,paaK,paaX,paaY,paaZ,pabA,pabB,pabC,pdxY,pfkA,pfkB,pgi,pgk,pheA,plsB,plsC,pncA,pncB,pncC,polA,ppk,pptA,prs,purA,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purR,purT,purU,pykA,pykF,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,pyrI,pyrL,rdgB,relA,rfaD,rfbA,rfbB,rfbC,rfbD,rffG,rihA,rihB,rihC,rnd,spoT,sucA,sucD,thyA,tmk,tnaA,tnaB,tpiA,trpA,trpB,trpC,trpD,trpE,trpL,tyrA,tyrB,tyrR,udk,udp,ugd,upp,ushA,uspG,xapA,xapB,yahF,yajL,ybhA,ybiA,ybiB,ydiB,yfaU,ygiD,ygjP,yhbO,yhfW,yhgF,yhgH,yieK,yjjX,ymdB,yoaA,yqgF,ytjC,	cellular aromatic compound metabolic process
+GO:0009072	5	35	aroA,aroB,aroC,aroD,aroE,aroF,aroG,aroH,aroK,aroL,folD,hisA,hisB,hisC,hisD,hisF,hisG,hisH,hisI,hisL,pabA,pabC,pheA,tnaA,tnaB,trpA,trpB,trpC,trpD,trpE,trpL,tyrA,tyrB,ybiB,ydiB,	aromatic amino acid family metabolic process
+GO:0006568	6	11	hisA,pabA,tnaA,tnaB,trpA,trpB,trpC,trpD,trpE,trpL,ybiB,	tryptophan metabolic process
+GO:0006569	7	2	tnaA,tnaB,	tryptophan catabolic process
+GO:0000162	7	9	hisA,pabA,trpA,trpB,trpC,trpD,trpE,trpL,ybiB,	tryptophan biosynthetic process
+GO:0009073	6	33	aroA,aroB,aroC,aroD,aroE,aroF,aroG,aroH,aroK,aroL,folD,hisA,hisB,hisC,hisD,hisF,hisG,hisH,hisI,hisL,pabA,pabC,pheA,trpA,trpB,trpC,trpD,trpE,trpL,tyrA,tyrB,ybiB,ydiB,	aromatic amino acid family biosynthetic process
+GO:0008153	7	1	pabC,	para-aminobenzoic acid biosynthetic process
+GO:0000105	7	10	folD,hisA,hisB,hisC,hisD,hisF,hisG,hisH,hisI,hisL,	histidine biosynthetic process
+GO:0042558	5	21	abgA,abgB,fau,folA,folB,folC,folD,folE,folK,folM,folP,folX,glyA,metE,metF,metH,nudB,pabA,pabB,pabC,purU,	pteridine-containing compound metabolic process
+GO:0006760	6	21	abgA,abgB,fau,folA,folB,folC,folD,folE,folK,folM,folP,folX,glyA,metE,metF,metH,nudB,pabA,pabB,pabC,purU,	folic acid-containing compound metabolic process
+GO:0046653	7	18	fau,folA,folB,folC,folD,folE,folK,folM,folP,glyA,metE,metF,metH,nudB,pabA,pabB,pabC,purU,	tetrahydrofolate metabolic process
+GO:0046655	7	13	abgA,abgB,folA,folB,folC,folK,folM,folP,glyA,nudB,pabA,pabB,pabC,	folic acid metabolic process
+GO:0046657	8	2	abgA,abgB,	folic acid catabolic process
+GO:0046452	7	2	folA,folC,	dihydrofolate metabolic process
+GO:0042817	5	1	pdxY,	pyridoxal metabolic process
+GO:0006139	4	176	aceE,aceF,add,adk,agaI,amn,apaH,apt,arnA,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,bcsA,bcsB,carA,carB,cdd,cdsA,cmk,coaA,coaD,coaE,cobT,cpdB,cpsB,cpsG,cra,cyaA,dcd,deoA,deoB,deoC,deoD,dfp,dgt,dinG,dut,eno,fbaA,fbaB,fcl,fdrA,fliI,folD,frlB,galF,galU,gapA,glk,glmM,glmS,glmU,gmd,gmhB,gmk,gpmA,gpmM,gpp,gpt,grxA,grxC,gsk,guaA,guaB,guaC,hchA,hldE,hpt,kdsB,lpd,manA,mdh,mobA,mocA,mtn,murA,nadA,nadB,nadC,nadD,nadE,nadR,nagB,ndk,nrdA,nrdB,nrdD,nrdE,nrdF,nrdG,nudE,nudF,nudK,nudL,pfkA,pfkB,pgi,pgk,plsB,plsC,pncA,pncB,pncC,polA,ppk,prs,purA,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purR,purT,purU,pykA,pykF,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,pyrI,pyrL,rdgB,relA,rfaD,rfbA,rfbB,rfbC,rfbD,rffG,rihA,rihB,rihC,rnd,spoT,sucA,sucD,thyA,tmk,tpiA,udk,udp,ugd,upp,ushA,uspG,xapA,xapB,yahF,yajL,ybiA,ygjP,yhbO,yhfW,yhgF,yhgH,yieK,yjjX,ymdB,yoaA,yqgF,ytjC,	nucleobase-containing compound metabolic process
+GO:0055086	5	170	aceE,aceF,add,adk,agaI,amn,apaH,apt,arnA,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,bcsA,bcsB,carA,carB,cdd,cdsA,cmk,coaA,coaD,coaE,cobT,cpdB,cpsB,cpsG,cra,cyaA,dcd,deoA,deoB,deoC,deoD,dfp,dgt,dut,eno,fbaA,fbaB,fcl,fdrA,fliI,folD,frlB,galF,galU,gapA,glk,glmM,glmS,glmU,gmd,gmhB,gmk,gpmA,gpmM,gpp,gpt,grxA,grxC,gsk,guaA,guaB,guaC,hchA,hldE,hpt,kdsB,lpd,manA,mdh,mobA,mocA,mtn,murA,nadA,nadB,nadC,nadD,nadE,nadR,nagB,ndk,nrdA,nrdB,nrdD,nrdE,nrdF,nrdG,nudE,nudF,nudK,nudL,pfkA,pfkB,pgi,pgk,plsB,plsC,pncA,pncB,pncC,ppk,prs,purA,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purR,purT,purU,pykA,pykF,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,pyrI,pyrL,rdgB,relA,rfaD,rfbA,rfbB,rfbC,rfbD,rffG,rihA,rihB,rihC,spoT,sucA,sucD,thyA,tmk,tpiA,udk,udp,ugd,upp,ushA,uspG,xapA,xapB,yahF,yajL,ybiA,ygjP,yhbO,yhfW,yhgH,yieK,yjjX,ymdB,ytjC,	nucleobase-containing small molecule metabolic process
+GO:0034656	6	8	deoD,mtn,rihA,rihB,rihC,udp,xapA,ybiA,	nucleobase-containing small molecule catabolic process
+GO:0009164	7	7	deoD,mtn,rihA,rihB,rihC,udp,xapA,	nucleoside catabolic process
+GO:0006152	8	5	deoD,rihA,rihB,rihC,xapA,	purine nucleoside catabolic process
+GO:0042454	8	4	rihA,rihB,rihC,udp,	ribonucleoside catabolic process
+GO:0046133	9	3	rihA,rihB,udp,	pyrimidine ribonucleoside catabolic process
+GO:0006218	10	1	udp,	uridine catabolic process
+GO:0015949	6	23	add,adk,apaH,cdd,cmk,dcd,deoC,deoD,dgt,gpp,guaC,nrdA,nrdB,nrdD,nrdE,nrdG,purA,pyrF,relA,rihA,spoT,tmk,xapA,	nucleobase-containing small molecule interconversion
+GO:0019686	7	1	deoD,	purine nucleoside interconversion
+GO:0009116	6	19	amn,apt,cobT,deoA,deoD,gpt,hpt,mtn,prs,purF,pyrE,rihA,rihB,rihC,udp,upp,xapA,yhgH,ymdB,	nucleoside metabolic process
+GO:0006213	7	1	deoA,	pyrimidine nucleoside metabolic process
+GO:0042278	7	6	deoD,rihA,rihB,rihC,xapA,ymdB,	purine nucleoside metabolic process
+GO:0009163	7	1	cobT,	nucleoside biosynthetic process
+GO:0006805	4	4	emrE,nemA,yieF,yjcS,	xenobiotic metabolic process
+GO:0001887	4	3	selD,selU,sufS,	selenium compound metabolic process
+GO:0070329	5	2	selD,selU,	tRNA seleno-modification
+GO:0006091	4	146	aceE,aceF,ahpF,alsE,appB,appC,azoR,bisC,ccp,cra,cybB,cydA,cydB,cydX,cyoA,cyoB,cyoC,cyoD,dld,dmsA,dmsC,dsbD,eno,fbaA,fbaB,fdhF,fdnG,fdnH,fdnI,fdoG,fdoH,fdoI,fdx,fixA,fixB,fldA,fldB,frdA,frdB,frmA,fumA,fumB,gapA,glk,glpC,glpD,gnd,gor,gpmA,gpmM,grxA,grxB,grxC,grxD,hcr,hemG,hyaA,hyaB,hyaC,hycC,hydN,hyfB,icd,kefF,kefG,lpd,mdh,msrQ,napA,napC,narG,narH,narI,narV,narY,narZ,ndh,norV,nrdH,nrfA,nrfB,nrfC,nrfD,nuoE,nuoG,nuoK,nuoL,nuoM,nuoN,paaE,paoA,pfkA,pfkB,pgi,pgk,pgl,pntA,pntB,ppk,pykA,pykF,rclA,rpe,rpiA,rpiB,rsxA,rsxB,rsxC,rsxD,rsxE,rsxG,sdhA,sdhB,sdhC,sdhD,sgcE,sthA,sucA,talA,talB,tktA,tktB,torA,torC,torY,torZ,tpiA,xdhC,ycaK,ycbX,yceJ,ydbK,ydhU,ydhV,ydiQ,ydiR,yeaX,yfaE,ygcQ,ygcR,ynfE,ynfF,ynfH,yodB,ytjC,zwf,	generation of precursor metabolites and energy
+GO:0006069	4	1	frmA,	ethanol oxidation
+GO:0022900	4	107	ahpF,appB,appC,azoR,bisC,ccp,cybB,cydA,cydB,cyoA,cyoB,cyoC,cyoD,dld,dmsA,dmsC,dsbD,fdhF,fdnG,fdnH,fdnI,fdoG,fdoH,fdoI,fdx,fixA,fixB,fldA,fldB,frdA,frdB,glpC,glpD,gor,grxA,grxB,grxC,grxD,hcr,hemG,hyaA,hyaB,hyaC,hycC,hydN,hyfB,icd,kefF,kefG,lpd,msrQ,napA,napC,narG,narH,narI,narV,narY,narZ,ndh,norV,nrdH,nrfA,nrfB,nrfC,nrfD,nuoE,nuoG,nuoK,nuoL,nuoM,nuoN,paaE,paoA,rclA,rsxA,rsxB,rsxC,rsxD,rsxE,rsxG,sdhA,sdhB,sdhC,sdhD,sthA,torA,torC,torY,torZ,xdhC,ycaK,ycbX,yceJ,ydbK,ydhU,ydhV,ydiQ,ydiR,yeaX,yfaE,ygcQ,ygcR,ynfE,ynfF,ynfH,yodB,	electron transport chain
+GO:0022904	5	42	appB,appC,ccp,cybB,cydA,cydB,cyoA,cyoB,cyoC,cyoD,dld,dmsC,fdnI,fdoH,fdoI,hyaC,hycC,hyfB,narI,narV,narY,narZ,ndh,nrfA,nrfB,nrfC,nrfD,nuoE,nuoG,nuoK,nuoL,nuoM,nuoN,sdhB,torA,torC,torY,torZ,yceJ,ydhU,ynfH,yodB,	respiratory electron transport chain
+GO:0042773	6	8	cyoA,hycC,hyfB,nuoG,nuoK,nuoL,nuoM,nuoN,	ATP synthesis coupled electron transport
+GO:0019645	6	15	ccp,dmsC,narI,narV,narY,narZ,nrfA,nrfB,nrfC,nrfD,torA,torC,torY,torZ,ynfH,	anaerobic electron transport chain
+GO:0019646	6	9	appB,appC,cydA,cydB,cyoA,cyoB,cyoC,cyoD,ndh,	aerobic electron transport chain
+GO:0006740	4	12	gnd,pgl,pntA,pntB,rpe,rpiA,rpiB,talA,talB,tktA,tktB,zwf,	NADPH regeneration
+GO:0055114	3	460	aceE,adhE,adhP,aegA,ahpC,ahpF,ahr,aidB,aldA,aldB,alkB,allD,appB,appC,argC,arnA,aroE,arsC,asd,astD,azoR,bcp,bdcA,betA,betB,bfd,bfr,bisC,btuE,caiA,cbrA,ccmG,ccmH,ccp,chbF,cnoX,cueO,curA,cybB,cydA,cydB,cydX,cyoA,cyoB,cyoC,cyoD,cysD,cysG,cysH,cysI,cysJ,dadA,dadX,dapB,dkgA,dkgB,dld,dmlA,dmsA,dmsB,dmsC,dnaJ,dps,dsbA,dsbB,dsbC,dsbD,dsbG,dusA,dusB,dusC,dxr,efeB,entA,epd,epmC,eutE,eutG,fabG,fabI,fadB,fadE,fadH,fadJ,fcl,fdhF,fdnG,fdnH,fdnI,fdoG,fdoH,fdoI,fdx,feaB,fixA,fixB,fixC,fixX,fldA,fldB,folA,folD,folM,fpr,frdA,frdB,fre,frmA,ftnA,ftnB,ftsP,fucO,gabD,gapA,garR,gatD,gcd,gcvP,gdhA,ghrA,ghrB,glaH,glcD,glcE,glcF,gldA,glpA,glpB,glpC,glpD,gltB,gltD,glvG,glxR,gnd,gor,gpr,gpsA,grxA,grxB,grxC,grxD,gstB,guaB,guaC,hcaB,hcaC,hcaD,hcaE,hcaF,hcp,hcr,hcxA,hcxB,hdhA,hemA,hemF,hemG,hemN,hemW,hisD,hmp,hyaA,hyaB,hyaC,hybA,hybB,hybC,hybO,hycB,hycC,hycD,hycE,hycF,hycG,hydN,hyfA,hyfB,hyfC,hyfD,hyfE,hyfF,hyfG,hyfH,hyfI,hyfJ,icd,idnD,idnO,ilvC,ispG,ispH,katE,katG,kduD,kefF,kefG,ldhA,leuB,lgoD,lhgD,lldD,lpd,lsrG,maeA,maeB,mdaB,mdh,melA,metF,metL,mhpA,mhpB,mhpF,mioC,mnmC,mqo,msrA,msrB,msrC,msrP,msrQ,mtlD,murB,nadB,napA,napB,napC,napG,napH,narG,narH,narI,narV,narY,narZ,ndh,nemA,nfeF,nfsA,nfsB,nirB,nirD,norV,norW,nrdA,nrdB,nrdD,nrdE,nrdF,nrdG,nrdH,nrfA,nrfB,nrfC,nrfD,nuoA,nuoB,nuoC,nuoE,nuoF,nuoG,nuoH,nuoI,nuoJ,nuoK,nuoL,nuoM,nuoN,osmC,paaA,paaE,paaH,paaZ,panE,paoA,paoB,paoC,patD,pdxA,pdxB,pdxH,pdxI,pflA,pflC,pgeF,pgl,phoA,pntA,pntB,poxB,preA,preT,proA,proC,putA,puuB,puuC,pyrD,qorA,qorB,queF,queG,rclA,rfbD,ribD,roxA,rpe,rpiA,rpiB,rspB,rsxA,rsxB,rsxC,rsxD,rsxE,rsxG,rutA,rutC,rutE,rutF,sad,sdhA,sdhB,sdhC,sdhD,serA,sodA,sodB,sodC,solA,srlD,ssuD,ssuE,sthA,sucA,talA,talB,tas,tauD,tdh,thrA,tktA,tktB,torA,torC,torY,torZ,tpx,trxA,trxB,trxC,tynA,tyrA,ubiF,ubiH,ubiI,ucpA,ugd,usg,uxaB,uxuB,wecC,wrbA,xdhA,xdhB,xdhC,xdhD,yahK,yajO,ybbO,ybdR,ybiX,ybiY,ycaK,ycbX,yccM,yceJ,yceM,yciK,ycjQ,ycjS,ydbK,ydeP,ydfG,ydfI,ydgJ,ydhF,ydhR,ydhU,ydhV,ydiB,ydiJ,ydiO,ydiQ,ydiR,ydiS,ydiT,ydjA,ydjG,ydjJ,ydjL,yeaE,yeaW,yeaX,yeiQ,yfaE,yfcF,yfcG,yfdG,yfeX,yfgD,yfhL,yfjU,ygbJ,ygcN,ygcO,ygcQ,ygcR,ygcU,ygcW,ygfF,ygfK,ygfM,ygfS,ygfT,yggP,yghA,yghU,ygiD,ygiN,ygjR,yhbW,yhdH,yhhW,yhhX,yiaK,yiaY,yieF,yihU,yjhC,yjjW,ykgE,ykgF,ykgJ,yliI,ynfE,ynfF,ynfG,ynfH,ynjA,yodB,yohF,yphC,yqcA,yqhD,yqjG,yraR,ysaA,zwf,	oxidation-reduction process
+GO:0019516	4	3	dld,lldD,ykgF,	lactate oxidation
+GO:0015944	4	8	fdhF,fdnG,fdnH,fdnI,fdoG,fdoH,fdoI,hybB,	formate oxidation
+GO:0019480	4	2	dadA,dadX,	L-alanine oxidation to pyruvate via D-alanine
+GO:0070989	4	1	alkB,	oxidative demethylation
+GO:0009056	3	109	acs,aes,agaI,ahpC,alsK,ampC,chaC,codA,cof,dgoA,dgoD,dgoK,dhaK,dkgA,dkgB,edd,fadA,frmA,frmB,ggt,ghrB,gldA,gloA,gloB,gloC,gnd,gntK,gntP,gntR,gntT,gpr,gudX,hcaB,hcaC,hcaD,hcaE,hcaF,hchA,idnD,idnK,idnO,idnT,katE,katG,ldcA,lgoD,lgoR,malS,malZ,mhpA,mhpB,mhpC,mhpD,mhpE,mhpF,mhpR,mpaA,nagA,nagB,nanA,nanE,nanK,paaA,paaB,paaC,paaD,paaE,paaF,paaG,paaH,paaI,paaJ,paaK,paaX,paaY,paaZ,pepA,pepB,pepD,pepN,pepQ,pepT,pfkA,php,ppx,pta,ssuD,ssuE,tauD,tyrR,uidA,yagE,yagF,ybhA,ycbX,yeaE,yegX,yeiG,yhbO,yieK,yihQ,yihR,yihS,yihT,yihU,yihV,yiiM,yjhG,yjhH,	catabolic process
+GO:0006739	3	15	gnd,nadK,nudC,pgl,pntA,pntB,rpe,rpiA,rpiB,sthA,talA,talB,tktA,tktB,zwf,	NADP metabolic process
+GO:0006742	4	1	nudC,	NADP catabolic process
+GO:0006741	4	1	nadK,	NADP biosynthetic process
+GO:0044238	3	847	aas,aat,abgA,abgB,accA,accB,accC,accD,aceA,aceB,aceE,aceF,aceK,acnA,acnB,acpH,acpP,acpS,acpT,add,adiA,adk,agaI,agp,ahr,ais,aldA,alsE,alsK,amn,ampH,amyA,anmK,ansA,ansB,apaH,apt,araA,araB,araC,araD,argA,argB,argC,argD,argE,argF,argG,argH,argI,argR,arnA,arnB,arnC,arnD,arnE,arnF,arnT,aroA,aroB,aroC,aroD,aroE,aroF,aroG,aroH,aroK,aroL,ascB,asd,aslB,asnA,asnB,aspA,aspC,astC,atoA,atoB,atoD,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,avtA,bcsA,bcsB,bcsZ,bepA,bglA,bglB,bglX,blc,cadA,carA,carB,cbl,cdd,cdh,cdsA,cfa,chbF,chbG,chiA,clpA,clpB,clpP,clpS,clpX,clsA,clsB,clsC,cmk,coaA,coaD,coaE,cobT,cpdB,cpsB,cpsG,cra,csdA,csgA,csgB,cyaA,cysB,cysE,cysI,cysJ,cysK,cysM,cysQ,cysZ,cyuA,cyuP,dacA,dacB,dacC,dacD,dadA,dapA,dapB,dapD,dapE,dapF,dcd,dcp,dcyD,ddpX,decR,degP,degQ,degS,deoA,deoB,deoC,deoD,dfp,dgkA,dgoA,dgoD,dgoK,dgt,dhaK,dinG,dkgA,dkgB,dsdA,dtd,dut,dxr,dxs,ebgA,edd,elaD,elbB,eno,envC,epd,eptA,eptB,eptC,erpA,etk,eutB,eutC,fabA,fabB,fabD,fabF,fabG,fabH,fabI,fabR,fabZ,fadA,fadB,fadD,fadE,fadH,fadI,fadJ,fadK,fadM,fadR,fbaA,fbaB,fbp,fcl,fdhE,fdrA,fepE,fixB,fliI,folD,frdB,frlA,frlB,frlD,fruK,frvX,fsaA,fsaB,ftsH,ftsI,fucA,fucI,fucK,fucO,fucP,fucR,fucU,fumA,fumB,fumC,gabD,gabP,gabT,galE,galF,galK,galM,galR,galT,galU,gapA,gatY,gcd,gdhA,ggt,ghrB,glcB,glf,glgB,glgC,glgP,glgX,glk,glmM,glmS,glmU,glpG,glpK,glpQ,glpX,gltA,gltB,gltD,glvG,glyA,gmd,gmhA,gmhB,gmk,gmm,gnd,gnsB,gntK,gntP,gntR,gntT,gph,gpmA,gpmM,gpp,gpsA,gpt,grxA,grxC,gsk,gspO,guaA,guaB,guaC,gudX,gutQ,hchA,hdhA,hinT,hisA,hisB,hisC,hisD,hisF,hisG,hisH,hisI,hisL,hldE,hpf,hpt,hscA,hscB,hslU,hslV,htpX,hxpA,hxpB,hyaD,hybD,hybE,hybF,hybG,hycI,hypA,hypB,hypC,hypD,hypE,hypF,iaaA,iadA,iap,icd,iclR,idi,idnD,idnK,idnO,idnT,ilvA,ilvB,ilvC,ilvD,ilvE,ilvH,ilvI,ilvL,ilvM,ilvN,ilvY,iscA,ispA,ispB,ispD,ispE,ispF,ispG,ispH,ivbL,kbaY,kbaZ,kdgK,kdsA,kdsB,kdsC,kdsD,kduD,kduI,lacZ,lapA,lapB,ldcA,ldcC,ldtA,ldtB,ldtC,ldtD,ldtE,lepB,leuA,leuB,leuC,leuD,leuL,lexA,lgoD,lgoR,lgt,lipA,lipB,lit,lldD,lnt,loiP,lolB,lon,lpd,lplA,lplT,lpp,lpxA,lpxB,lpxC,lpxD,lpxH,lpxK,lpxL,lpxM,lpxP,lpxT,lspA,lsrK,ltaE,lysA,lysC,lyxK,maeA,mak,malP,malQ,malS,malT,malY,malZ,manA,map,mdh,melA,mepA,mepH,mepM,mepS,metA,metB,metC,metE,metF,metH,metJ,metL,metR,mlc,mmuM,mmuP,mngB,mobA,mocA,mpaA,mqo,mrcA,mrcB,mrdA,mtfA,mtn,murA,murG,murQ,murR,nadA,nadB,nadC,nadD,nadE,nadR,nagA,nagB,nagC,nagK,nagZ,nanA,nanE,nanK,nanM,nanS,ndk,nfuA,nlpC,nlpD,nrdA,nrdB,nrdD,nrdE,nrdF,nrdG,nudE,nudF,nudK,nudL,ompT,opgB,opgC,opgD,opgG,otnC,oxc,paaF,paaG,paaH,paaJ,pabA,pabC,pagP,panD,panZ,pbpC,pbpG,pck,pepA,pepB,pepD,pepE,pepN,pepP,pepQ,pepT,pfkA,pfkB,pflA,pflB,pflC,pgaB,pgi,pgk,pgl,pgm,pgpA,pgpB,pgpC,pgsA,pheA,phnN,pldA,pldB,plsB,plsC,plsX,plsY,pmbA,pncA,pncB,pncC,polA,ppc,ppk,pppA,ppsA,pqqL,prc,prkB,prlC,proA,proB,proC,prpC,prpD,prs,psd,pssA,psuK,pth,ptrA,ptrB,purA,purB,purC,purD,purE,purF,purH,purK,purL,purM,purN,purR,purT,purU,puuE,pxpA,pykA,pykF,pyrB,pyrC,pyrD,pyrE,pyrF,pyrG,pyrH,pyrI,pyrL,raiA,rbsD,rbsK,rdgB,relA,rfaD,rfbA,rfbB,rfbC,rfbD,rfbX,rfe,rffG,rffH,rhaA,rhaB,rhaD,rhaM,rhaR,rhaS,rhmD,ridA,rihA,rihB,rihC,rimI,rimJ,rimL,rlhA,rnd,rpe,rpiB,rseP,rspA,rssA,rzpD,sad,scpB,sdaA,sdaB,sdhA,sdhB,sdhC,sdhD,serA,serB,serC,sgbE,sgbH,sgbU,sgcE,sgcX,skp,slyD,sohB,speC,speF,spoT,sppA,sseA,sucA,sucB,sucC,sucD,sufA,sufS,suhB,talA,talB,tdcB,tdcD,tdcE,tdcG,tesA,tesB,thrA,thrB,thrC,thrL,thyA,tldD,tmk,tnaA,tnaB,torD,tpiA,treC,trpA,trpB,trpC,trpD,trpE,trpL,tsaB,tsaD,tyrA,tyrB,udk,udp,ugd,ugpQ,uidA,ulaD,ulaE,ulaF,ulaG,umpH,umuD,upp,uppS,usg,ushA,uspG,uxaA,uxaB,uxaC,uxuA,uxuB,waaA,waaB,waaC,waaF,waaG,waaJ,waaL,waaO,waaP,waaQ,waaS,waaU,waaY,waaZ,wbbH,wbbI,wbbJ,wbbK,wcaA,wcaB,wcaC,wcaD,wcaE,wcaF,wcaI,wcaJ,wcaK,wcaL,wcaM,wecC,wecE,wza,wzb,wzc,wzxC,wzzB,wzzE,xapA,xapB,xylA,xylB,yadE,yaeF,yaeI,yafL,yagE,yagF,yagH,yahF,yajL,yajO,ybeY,ybgC,ybhJ,ybiA,ybiB,ybiW,ycaL,ycbZ,yciA,ycjG,ycjM,ycjR,ycjT,ycjU,ydcR,ydeM,ydgD,ydiB,ydiF,ydiR,ydjH,ydjI,yeaD,yedK,yeeS,yegQ,yegS,yegX,yeiI,yfaL,yfbL,yfdG,yfeW,yfjY,ygbJ,ygbK,ygbL,ygbM,ygcE,ygeA,ygeR,ygeW,ygeX,ygeY,yggF,ygjP,yhbO,yhbU,yhbV,yheT,yhfW,yhgF,yhgH,yhjJ,yibQ,yicI,yicR,yidK,yidR,yieK,yieL,yifB,yihQ,yihR,yihV,yjfP,yjhG,yjhH,yjiR,yjjU,yjjX,ykfG,ymdB,ynbA,ynjE,ynjF,yoaA,ypdE,ypdF,yphB,yqeF,yqgF,ytfB,ytjC,zwf,	primary metabolic process
+GO:0006520	4	158	adiA,ansA,ansB,argA,argB,argC,argD,argE,argF,argG,argH,argI,argR,aroA,aroB,aroC,aroD,aroE,aroF,aroG,aroH,aroK,aroL,asd,asnA,asnB,aspC,astC,avtA,cadA,carA,carB,cbl,csdA,cysB,cysE,cysI,cysJ,cysK,cysM,cysZ,cyuA,cyuP,dadA,dapA,dapB,dapD,dapE,dapF,dcyD,decR,dgoD,dsdA,dtd,eutB,eutC,folD,frlA,gabD,gabP,gabT,gdhA,ggt,gltB,gltD,glyA,gudX,hinT,hisA,hisB,hisC,hisD,hisF,hisG,hisH,hisI,hisL,ilvA,ilvB,ilvC,ilvD,ilvE,ilvH,ilvI,ilvL,ilvM,ilvN,ilvY,ivbL,ldcC,leuA,leuB,leuC,leuD,leuL,ltaE,lysA,lysC,malY,metA,metB,metC,metE,metF,metH,metJ,metL,metR,mmuM,mmuP,mtn,pabA,pabC,pheA,proA,proB,proC,puuE,pyrB,rhmD,ridA,rspA,sad,serA,serB,serC,speC,speF,sseA,sufS,tdcB,tdcD,tdcG,thrA,thrB,thrC,thrL,tnaA,tnaB,trpA,trpB,trpC,trpD,trpE,trpL,tyrA,tyrB,usg,wcaB,ybiB,ycjG,ydcR,ydiB,ygeA,ygeW,ygeX,yjiR,ynjE,	cellular amino acid metabolic process
+GO:0009448	5	5	gabD,gabP,gabT,puuE,sad,	gamma-aminobutyric acid metabolic process
+GO:0009450	6	5	gabD,gabP,gabT,puuE,sad,	gamma-aminobutyric acid catabolic process
+GO:1901605	5	35	argB,argD,argF,argG,argH,argI,astC,avtA,dadA,dcyD,dsdA,dtd,gabT,hinT,hisA,metB,metE,metH,pabA,speC,speF,sseA,tnaA,tnaB,trpA,trpB,trpC,trpD,trpE,trpL,ybiB,ydcR,ygeW,yjiR,ynjE,	alpha-amino acid metabolic process
+GO:0046416	6	5	dadA,dcyD,dsdA,dtd,hinT,	D-amino acid metabolic process
+GO:0070178	7	1	dsdA,	D-serine metabolic process
+GO:0036088	8	1	dsdA,	D-serine catabolic process
+GO:0019478	7	5	dadA,dcyD,dsdA,dtd,hinT,	D-amino acid catabolic process
+GO:0055130	8	2	dadA,hinT,	D-alanine catabolic process
+GO:0000053	6	1	argG,	argininosuccinate metabolic process
+GO:0006591	6	10	argB,argD,argF,argH,argI,astC,gabT,speC,speF,ygeW,	ornithine metabolic process
+GO:0006593	7	1	astC,	ornithine catabolic process
+GO:0042450	7	8	argB,argD,argF,argH,argI,astC,gabT,ygeW,	arginine biosynthetic process via ornithine
+GO:0033387	7	2	speC,speF,	putrescine biosynthetic process from ornithine
+GO:0008652	5	108	argA,argB,argC,argD,argE,argF,argG,argH,argI,argR,aroA,aroB,aroC,aroD,aroE,aroF,aroG,aroH,aroK,aroL,asd,asnA,asnB,avtA,carA,carB,cysB,cysE,cysI,cysJ,cysK,cysM,cysZ,dapA,dapB,dapD,dapE,dapF,folD,ggt,gltB,gltD,glyA,hisA,hisB,hisC,hisD,hisF,hisG,hisH,hisI,hisL,ilvA,ilvB,ilvC,ilvD,ilvE,ilvH,ilvI,ilvL,ilvM,ilvN,ilvY,ivbL,leuA,leuB,leuC,leuD,leuL,lysA,lysC,malY,metA,metB,metC,metE,metF,metH,metJ,metL,metR,mmuM,mtn,pabA,pabC,pheA,proA,proB,proC,ridA,serA,serB,serC,thrA,thrB,thrC,thrL,trpA,trpB,trpC,trpD,trpE,trpL,tyrA,tyrB,usg,ybiB,ydiB,	cellular amino acid biosynthetic process
+GO:0019877	6	5	asd,dapA,dapB,dapD,dapE,	diaminopimelate biosynthetic process
+GO:0009082	6	21	asd,avtA,ilvA,ilvB,ilvC,ilvD,ilvE,ilvH,ilvI,ilvL,ilvM,ilvN,ilvY,ivbL,leuA,leuB,leuC,leuD,leuL,ridA,tyrB,	branched-chain amino acid biosynthetic process
+GO:0009097	7	11	asd,ilvA,ilvB,ilvC,ilvD,ilvE,ilvH,ilvI,ilvM,ilvN,ridA,	isoleucine biosynthetic process
+GO:0009098	7	7	ilvE,leuA,leuB,leuC,leuD,leuL,tyrB,	leucine biosynthetic process
+GO:0009099	7	11	avtA,ilvB,ilvC,ilvD,ilvE,ilvH,ilvI,ilvL,ilvM,ilvN,ivbL,	valine biosynthetic process
+GO:0009081	5	21	asd,avtA,ilvA,ilvB,ilvC,ilvD,ilvE,ilvH,ilvI,ilvL,ilvM,ilvN,ilvY,ivbL,leuA,leuB,leuC,leuD,leuL,ridA,tyrB,	branched-chain amino acid metabolic process
+GO:0009063	5	15	asnB,dgoD,frlA,gabD,gabP,gabT,gudX,puuE,rhmD,rspA,sad,tdcD,tdcG,ycjG,ygeX,	cellular amino acid catabolic process
+GO:0019665	6	1	tdcD,	anaerobic amino acid catabolic process
+GO:1901281	6	1	frlA,	fructoselysine catabolic process
+GO:0006099	4	29	aceA,aceB,aceK,acnA,acnB,aspA,fdrA,frdB,fumA,fumB,fumC,glcB,gltA,icd,mdh,mqo,ppc,prpC,prpD,sdhA,sdhB,sdhC,sdhD,sucA,sucB,sucC,sucD,yahF,ybhJ,	tricarboxylic acid cycle
+GO:0019538	4	152	aat,abgA,abgB,ampH,argE,aslB,bepA,clpA,clpB,clpP,clpS,clpX,csgA,csgB,dacA,dacB,dacC,dacD,dapE,dcp,ddpX,degP,degQ,degS,elaD,envC,erpA,fdhE,frvX,ftsH,ftsI,ggt,glpG,gspO,hscA,hscB,hslU,hslV,htpX,hyaD,hybD,hybE,hybF,hybG,hycI,hypA,hypB,hypC,hypD,hypE,hypF,iaaA,iadA,iap,iscA,ldcA,ldtA,ldtB,ldtC,ldtD,ldtE,lepB,lexA,lgt,lipA,lipB,lit,lnt,loiP,lolB,lon,lplA,lspA,map,mepA,mepH,mepM,mepS,mpaA,mrcA,mrcB,mrdA,mtfA,nfuA,nlpC,nlpD,ompT,panD,panZ,pbpC,pbpG,pepA,pepB,pepD,pepE,pepN,pepP,pepQ,pepT,pmbA,pppA,pqqL,prc,prlC,psd,pth,ptrA,ptrB,rimI,rimJ,rimL,rlhA,rseP,rzpD,sgcX,skp,slyD,sohB,sppA,sufA,tesA,tldD,torD,tsaB,tsaD,umuD,yaeF,yafL,ybeY,ycaL,ycbZ,ydeM,ydgD,yedK,yeeS,yegQ,yfaL,yfbL,yfeW,yfjY,ygeR,ygeY,yhbU,yhbV,yhjJ,yicR,yifB,yjfP,ykfG,ypdE,ypdF,ytfB,	protein metabolic process
+GO:1990000	5	2	csgA,csgB,	amyloid fibril formation
+GO:0051604	5	39	aslB,erpA,fdhE,gspO,hscA,hscB,hyaD,hybD,hybE,hybF,hybG,hycI,hypA,hypB,hypC,hypD,hypE,hypF,iaaA,iscA,lepB,lipA,lipB,lplA,nfuA,panD,panZ,pppA,prlC,psd,rimI,rimJ,rimL,skp,slyD,sppA,sufA,torD,ydeM,	protein maturation
+GO:0009249	6	3	lipA,lipB,lplA,	protein lipoylation
+GO:0006474	6	3	rimI,rimJ,rimL,	N-terminal protein amino acid acetylation
+GO:0017189	7	2	rimI,rimJ,	N-terminal peptidyl-alanine acetylation
+GO:0017198	7	2	rimJ,rimL,	N-terminal peptidyl-serine acetylation
+GO:0022417	6	2	skp,slyD,	protein maturation by protein folding
+GO:0016485	6	12	gspO,hyaD,hybD,hycI,iaaA,lepB,panD,panZ,pppA,prlC,psd,sppA,	protein processing
+GO:0016540	7	3	iaaA,panD,psd,	protein autoprocessing
+GO:0031638	7	2	panZ,psd,	zymogen activation
+GO:0006465	7	5	gspO,lepB,pppA,prlC,sppA,	signal peptide processing
+GO:0097428	6	6	erpA,hscA,hscB,iscA,nfuA,sufA,	protein maturation by iron-sulfur cluster transfer
+GO:0106035	7	2	erpA,nfuA,	protein maturation by [4Fe-4S] cluster transfer
+GO:0042157	5	4	lgt,lnt,lolB,lspA,	lipoprotein metabolic process
+GO:0042158	6	3	lgt,lnt,lspA,	lipoprotein biosynthetic process
+GO:0097304	7	1	lspA,	lipoprotein biosynthetic process via signal peptide cleavage
+GO:0030163	5	9	aat,clpP,clpS,clpX,ftsH,hslV,lon,prc,ycbZ,	protein catabolic process
+GO:0010498	6	1	clpP,	proteasomal protein catabolic process
+GO:0006508	5	118	abgA,abgB,ampH,argE,bepA,clpA,clpP,clpS,clpX,dacA,dacB,dacC,dacD,dapE,dcp,ddpX,degP,degQ,degS,elaD,envC,frvX,ftsH,ftsI,ggt,glpG,gspO,hslU,hslV,htpX,hyaD,hybD,hycI,iaaA,iadA,iap,ldcA,ldtA,ldtB,ldtC,ldtD,ldtE,lepB,lexA,lit,loiP,lon,lspA,map,mepA,mepH,mepM,mepS,mpaA,mrcA,mrcB,mrdA,mtfA,nlpC,nlpD,ompT,panD,panZ,pbpC,pbpG,pepA,pepB,pepD,pepE,pepN,pepP,pepQ,pepT,pmbA,pppA,pqqL,prc,prlC,psd,pth,ptrA,ptrB,rlhA,rseP,rzpD,sgcX,sohB,sppA,tesA,tldD,tsaB,tsaD,umuD,yaeF,yafL,ybeY,ycaL,ycbZ,ydgD,yedK,yeeS,yegQ,yfaL,yfbL,yfeW,yfjY,ygeR,ygeY,yhbU,yhbV,yhjJ,yicR,yifB,yjfP,ykfG,ypdE,ypdF,ytfB,	proteolysis
+GO:0097264	6	1	ggt,	self proteolysis
+GO:0051603	6	8	bepA,clpP,degP,degQ,hslV,lon,pth,ycaL,	proteolysis involved in cellular protein catabolic process
+GO:0006515	7	4	clpP,degP,lon,pth,	protein quality control for misfolded or incompletely synthesized proteins
+GO:0006807	3	20	carA,carB,gabD,glnA,glnD,gltB,gltD,hcp,lnt,murI,nemA,nrfA,nrfB,puuA,pyrB,sad,yafV,ygeA,yjjI,yobB,	nitrogen compound metabolic process
+GO:0046034	3	36	aceE,aceF,appB,appC,atpA,atpB,atpC,atpD,atpE,atpF,atpG,atpH,cra,cydA,cydB,cydX,eno,fbaA,fbaB,fliI,gapA,glk,gpmA,gpmM,lpd,mdh,pfkA,pfkB,pgi,pgk,ppk,pykA,pykF,sucA,tpiA,ytjC,	ATP metabolic process
+GO:0015976	2	11	adhE,can,cynT,hofM,hofN,hofO,hofP,hofQ,nfuA,rlmJ,yhgH,	carbon utilization
+GO:0019740	2	9	amtB,glnA,gltB,rutA,rutB,rutC,rutD,rutE,rutF,	nitrogen utilization
+GO:0019676	3	2	glnA,gltB,	ammonia assimilation cycle
+GO:0050896	2	507	acnA,acrZ,ada,add,adhP,ahpC,ahpF,aidB,alaA,aldB,alkA,alkB,allR,appA,appY,aqpZ,argB,argF,argT,ariR,arsC,asd,asnA,atl,azoR,barA,bcp,betA,betB,betI,betT,bipA,blc,blr,bluF,bsmA,btsT,btuE,cas1,ccp,cho,clpA,clpB,clpP,clpS,cnoX,cobU,cpdB,cpsB,cspA,cspB,cspD,cspG,cspI,cstA,cysD,cysG,dam,dctA,dcyD,ddpX,deaD,degP,deoA,deoB,deoC,deoD,dgcN,dhaK,dhaM,dinB,dinD,dinG,dinI,dinQ,dnaJ,dnaK,dnaN,dnaQ,dosP,dps,dsbB,dsdA,dsdX,dtd,efeB,efeO,elaB,emrE,emrK,emrY,entS,eutD,eutN,exoX,fdoG,fdoI,fecR,feoA,feoB,fepB,fimB,flgH,flgI,fnr,frdA,fre,fsr,ftnA,ftsK,ftsP,fumB,fumC,gabP,gadW,gadX,glaH,glcD,glgA,glgB,glgX,gloB,glpK,glrK,glxR,gntR,gor,gph,gpmM,gpp,gpr,groL,groS,grpE,grxC,gshA,gsiB,gstA,hchA,hcp,helD,hflC,hflD,hflK,hflX,hisA,hmp,hokE,hprS,hscA,hslJ,hslO,hslR,hslU,hslV,hspQ,htpG,hupA,hyfC,hyfF,ibpA,ibpB,icd,idi,infC,insK,iprA,iraD,iraM,iraP,katE,katG,kdgK,kdpD,lamB,ldhA,ldtD,lepA,leuB,lexA,ligA,ligB,lldP,lldR,loiP,lon,lpd,lpxP,lsrR,malE,malF,marR,mazG,mdtK,mfd,mglA,mglC,mgtS,miaA,mlaB,mltC,mmuM,mngR,mntH,moaA,modF,mrr,mscM,msrA,msrB,msrP,mug,mutH,mutL,mutM,mutS,mutT,mutY,nadE,nagE,nanK,napF,narX,narY,nei,nfeF,nfeR,nfi,nfo,nfuA,nhaA,nikE,norV,norW,nth,nudF,nudG,ogt,ompA,ompC,opgG,opgH,oppA,osmC,osmE,osmF,osmY,otsA,otsB,oxyR,paaJ,paoC,patZ,pdeD,pdeF,pfkB,pflA,pgi,phoQ,phoR,phoU,phr,pncB,pnp,polA,polB,priA,proP,proQ,proV,proW,proX,psiE,pspA,pspB,pspD,pspG,pstA,pstS,purA,purB,purD,purN,putA,puuP,pykF,qorA,radA,radD,raiA,rbfA,rclA,rclB,rclC,rcnB,rcsA,rcsC,rcsF,recA,recB,recC,recD,recF,recG,recJ,recN,recO,recQ,recR,recX,relA,relE,rep,rfbC,rfbX,rhlE,rhsD,rihC,rimK,rnhB,rnr,rnt,rplK,rpmF,rpoD,rpoE,rpoH,rseC,rtcB,rusA,rutE,ruvA,ruvB,ruvC,sanA,sbcB,sbcC,sbcD,sbmC,sgbU,slyA,slyD,sodA,solA,soxR,spoT,ssb,sseA,sspA,ssuD,ssuE,sufA,sufD,sufE,sulA,symE,tag,tas,tatD,tauA,tauB,tauC,thiH,tig,tisB,tktA,tpx,treA,treC,treF,ttdB,ubiG,ubiH,udp,umuC,umuD,ung,uspC,uspD,uspE,uspF,uvrA,uvrB,uvrC,uvrD,uxuA,ves,vsr,waaH,wrbA,xthA,yaaA,yaaU,yaaY,yadC,yafN,yafO,yafP,yaiP,yajL,yajQ,ybaM,ybaT,ybaV,ybcM,ybdG,ybeQ,ybeY,ybfE,ybgI,ybhJ,ybhR,ybiJ,ybiO,ybiT,ybiX,ybjD,ybjX,yccX,ycdY,yceK,ycfL,ycgB,ychF,ychH,yciF,yciT,ycjU,ycjW,ydbK,ydeI,ydeM,ydfK,ydhQ,ydiQ,ydiZ,ydjM,yeaD,yeaG,yebG,yebK,yebS,yedF,yegP,yehB,yfbU,yfcA,yfcF,yfcG,yfdK,yfdO,yfdS,yfgG,yfgI,ygcW,ygfI,yggE,yggT,yggX,yghG,ygiW,ygjK,yhaC,yhbO,yhbQ,yhcF,yhcH,yhcN,yiaA,yiaB,yiaO,yibA,yibH,yidH,yidQ,yjaA,yjaZ,yjeI,yjhC,yjiA,yjiM,yjiX,yjjB,yjjU,ykfM,ykgM,ynaE,ynaI,ynhF,yoaA,yobF,yodD,yohC,yphB,yqcG,yqgF,yqhD,yqiH,yqiJ,yraJ,yraP,yrfG,ytfE,ytfK,zinT,zraP,zraS,	response to stimulus
+GO:0006950	3	503	acnA,acrZ,ada,add,adhP,ahpC,ahpF,aidB,alaA,aldB,alkA,alkB,allR,appA,appY,aqpZ,argB,argF,argT,ariR,arsC,asd,asnA,atl,azoR,barA,bcp,betA,betB,betI,betT,bipA,blc,blr,bsmA,btsT,btuE,cas1,ccp,cho,clpA,clpB,clpP,clpS,cnoX,cobU,cpdB,cpsB,cspA,cspB,cspD,cspG,cspI,cstA,cysD,cysG,dam,dctA,dcyD,ddpX,deaD,degP,deoA,deoB,deoC,deoD,dgcN,dhaK,dhaM,dinB,dinD,dinG,dinI,dinQ,dnaJ,dnaK,dnaN,dnaQ,dps,dsbB,dsdA,dsdX,dtd,efeB,efeO,elaB,emrE,emrK,emrY,entS,eutD,eutN,exoX,fdoG,fdoI,feoA,feoB,fepB,fimB,flgH,flgI,fnr,frdA,fre,fsr,ftnA,ftsK,ftsP,fumB,fumC,gabP,gadW,gadX,glaH,glcD,glgA,glgB,glgX,gloB,glpK,glrK,glxR,gntR,gor,gph,gpmM,gpp,gpr,groL,groS,grpE,grxC,gshA,gsiB,gstA,hchA,hcp,helD,hflC,hflD,hflK,hflX,hisA,hmp,hokE,hprS,hscA,hslJ,hslO,hslR,hslU,hslV,hspQ,htpG,hupA,hyfC,hyfF,ibpA,ibpB,icd,idi,infC,insK,iprA,iraD,iraM,iraP,katE,katG,kdgK,kdpD,lamB,ldhA,ldtD,lepA,leuB,lexA,ligA,ligB,lldP,lldR,loiP,lon,lpd,lpxP,lsrR,malE,malF,marR,mazG,mdtK,mfd,mglA,mglC,mgtS,miaA,mlaB,mltC,mmuM,mngR,mntH,moaA,modF,mrr,mscM,msrA,msrB,msrP,mug,mutH,mutL,mutM,mutS,mutT,mutY,nadE,nagE,nanK,napF,narX,narY,nei,nfeF,nfeR,nfi,nfo,nfuA,nhaA,nikE,norV,norW,nth,nudF,nudG,ogt,ompA,ompC,opgG,opgH,oppA,osmC,osmE,osmF,osmY,otsA,otsB,oxyR,paaJ,paoC,patZ,pdeD,pdeF,pfkB,pflA,pgi,phoQ,phoR,phoU,phr,pncB,pnp,polA,polB,priA,proP,proQ,proV,proW,proX,psiE,pspA,pspB,pspD,pspG,pstA,pstS,purA,purB,purD,purN,putA,puuP,pykF,qorA,radA,radD,raiA,rbfA,rclA,rclB,rclC,rcnB,rcsC,rcsF,recA,recB,recC,recD,recF,recG,recJ,recN,recO,recQ,recR,recX,relA,relE,rep,rfbC,rfbX,rhlE,rhsD,rihC,rimK,rnhB,rnr,rnt,rplK,rpmF,rpoD,rpoE,rpoH,rseC,rtcB,rusA,rutE,ruvA,ruvB,ruvC,sanA,sbcB,sbcC,sbcD,sbmC,sgbU,slyA,slyD,sodA,solA,soxR,spoT,ssb,sseA,sspA,ssuD,ssuE,sufA,sufD,sufE,sulA,symE,tag,tas,tatD,tauA,tauB,tauC,thiH,tig,tisB,tktA,tpx,treA,treC,treF,ttdB,ubiG,ubiH,udp,umuC,umuD,ung,uspC,uspD,uspE,uspF,uvrA,uvrB,uvrC,uvrD,uxuA,ves,vsr,waaH,wrbA,xthA,yaaA,yaaU,yaaY,yadC,yafN,yafO,yafP,yaiP,yajL,yajQ,ybaM,ybaT,ybaV,ybcM,ybdG,ybeQ,ybeY,ybfE,ybgI,ybhJ,ybhR,ybiJ,ybiO,ybiT,ybiX,ybjD,ybjX,yccX,ycdY,yceK,ycfL,ycgB,ychF,ychH,yciF,yciT,ycjU,ycjW,ydbK,ydeI,ydeM,ydfK,ydhQ,ydiQ,ydiZ,ydjM,yeaD,yeaG,yebG,yebK,yebS,yedF,yegP,yehB,yfbU,yfcA,yfcF,yfcG,yfdK,yfdO,yfdS,yfgG,yfgI,ygcW,ygfI,yggE,yggT,yggX,yghG,ygiW,ygjK,yhaC,yhbO,yhbQ,yhcF,yhcH,yhcN,yiaA,yiaB,yiaO,yibA,yibH,yidH,yidQ,yjaA,yjaZ,yjeI,yjhC,yjiA,yjiM,yjiX,yjjB,yjjU,ykfM,ykgM,ynaE,ynaI,ynhF,yoaA,yobF,yodD,yohC,yphB,yqcG,yqgF,yqhD,yqiH,yqiJ,yraJ,yraP,yrfG,ytfE,ytfK,zinT,zraP,zraS,	response to stress
+GO:0051599	4	1	mrr,	response to hydrostatic pressure
+GO:0097501	4	3	ibpB,ybaT,yfgG,	stress response to metal ion
+GO:1990532	5	1	yfgG,	stress response to nickel ion
+GO:1990169	5	2	ibpB,ybaT,	stress response to copper ion
+GO:0009271	4	4	pspA,pspB,pspD,pspG,	phage shock
+GO:0033554	4	315	acrZ,ada,add,adhP,ahpC,aidB,alaA,aldB,alkA,alkB,allR,appA,appY,argB,argF,argT,arsC,asd,asnA,atl,betT,blc,blr,bsmA,btsT,cas1,cho,cobU,cpdB,cstA,dam,dctA,dcyD,deaD,deoA,deoB,deoC,deoD,dgcN,dhaK,dhaM,dinB,dinD,dinG,dinI,dinQ,dnaN,dnaQ,dsdA,dsdX,efeB,elaB,emrE,emrK,emrY,entS,eutN,exoX,fdoG,fdoI,feoA,feoB,fepB,fimB,flgI,frdA,fsr,ftnA,fumB,gabP,gadW,gadX,glcD,glgA,glgB,glgX,glpK,glxR,gntR,gph,gpr,gsiB,hchA,helD,hisA,hokE,hprS,hscA,hslR,htpG,hupA,hyfC,hyfF,idi,insK,iraD,iraM,iraP,katE,kdgK,lamB,ldtD,leuB,lexA,ligA,ligB,lldP,lldR,loiP,lon,malE,malF,mazG,mfd,mglA,mglC,mgtS,miaA,mlaB,mmuM,modF,mug,mutH,mutL,mutM,mutS,mutT,mutY,nadE,nagE,nanK,narX,narY,nei,nfeF,nfeR,nfi,nfo,nfuA,nikE,nth,nudG,ogt,ompA,ompC,otsA,otsB,oxyR,paaJ,paoC,pdeD,pdeF,pfkB,pflA,phoQ,phoR,phoU,phr,polA,polB,priA,proQ,psiE,pstA,pstS,purA,purB,purD,purN,puuP,radA,radD,rbfA,rcnB,rcsF,recA,recB,recC,recD,recF,recG,recJ,recN,recO,recQ,recR,recX,relE,rep,rfbC,rfbX,rhsD,rihC,rimK,rnhB,rnt,rplK,rtcB,rusA,rutE,ruvA,ruvB,ruvC,sbcB,sbcC,sbcD,sbmC,sgbU,solA,ssb,sseA,ssuE,sulA,symE,tag,tas,tauA,tauB,tauC,thiH,tisB,treA,treC,udp,umuC,umuD,ung,uspC,uvrA,uvrB,uvrC,uvrD,uxuA,ves,vsr,waaH,xthA,yaaY,yadC,yafN,yafO,yafP,yaiP,yajL,yajQ,ybaM,ybaV,ybcM,ybfE,ybgI,ybhR,ybiJ,ybiX,ybjD,ybjX,ycdY,yceK,ycfL,ycgB,yciF,yciT,ycjU,ycjW,ydeM,ydhQ,ydiQ,ydiZ,ydjM,yeaD,yeaG,yebG,yebK,yedF,yegP,yehB,yfbU,yfgI,ygcW,ygfI,yggE,yghG,ygjK,yhaC,yhbO,yhbQ,yhcF,yhcH,yiaA,yiaB,yiaO,yibA,yibH,yidQ,yjeI,yjhC,yjiA,yjiM,yjiX,yjjU,ykfM,ykgM,ynhF,yoaA,yobF,yohC,yphB,yqcG,yqgF,yqiH,yqiJ,yraJ,yrfG,zinT,zraP,zraS,	cellular response to stress
+GO:0070417	5	5	deaD,hscA,otsA,otsB,ves,	cellular response to cold
+GO:0070415	6	2	otsA,otsB,	trehalose metabolism in response to cold stress
+GO:0042262	5	1	sseA,	DNA protection
+GO:0036460	5	9	acrZ,blr,dgcN,rcsF,ybaM,yobF,yqcG,zraP,zraS,	cellular response to cell envelope stress
+GO:0071454	5	2	appA,pdeF,	cellular response to anoxia
+GO:0009267	5	32	ahpC,appA,appY,argT,btsT,cstA,dcyD,gabP,iraM,iraP,leuB,mazG,mgtS,nfeF,nfuA,phoQ,phoR,phoU,psiE,relE,rhsD,rplK,ssuE,tas,tauA,tauB,tauC,uspC,waaH,yeaG,ykgM,zinT,	cellular response to starvation
+GO:0016036	6	7	appA,appY,iraP,phoR,phoU,psiE,waaH,	cellular response to phosphate starvation
+GO:0009970	6	3	ahpC,ssuE,tauA,	cellular response to sulfate starvation
+GO:0010350	6	3	iraM,mgtS,phoQ,	cellular response to magnesium starvation
+GO:0015968	6	1	rplK,	stringent response
+GO:0006995	6	3	argT,gabP,yeaG,	cellular response to nitrogen starvation
+GO:0034224	6	2	ykgM,zinT,	cellular response to zinc ion starvation
+GO:0034198	6	3	leuB,relE,tas,	cellular response to amino acid starvation
+GO:0010106	6	2	nfeF,nfuA,	cellular response to iron ion starvation
+GO:0010438	6	4	dcyD,rhsD,tauB,tauC,	cellular response to sulfur starvation
+GO:0034605	5	7	hslR,loiP,lon,miaA,phoU,yggE,yobF,	cellular response to heat
+GO:0071456	5	1	ynhF,	cellular response to hypoxia
+GO:0006974	5	266	ada,add,adhP,aidB,alaA,aldB,alkA,alkB,allR,argB,argF,arsC,asd,asnA,atl,betT,blc,bsmA,btsT,cas1,cho,cobU,cpdB,dam,dctA,deoA,deoB,deoC,deoD,dhaK,dhaM,dinB,dinD,dinG,dinI,dinQ,dnaN,dnaQ,dsdA,dsdX,efeB,elaB,emrE,emrK,emrY,entS,eutN,exoX,fdoG,fdoI,feoA,feoB,fepB,fimB,flgI,frdA,fsr,ftnA,fumB,gabP,gadW,gadX,glcD,glgA,glgB,glgX,glpK,glxR,gntR,gph,gpr,gsiB,hchA,helD,hisA,hokE,hprS,htpG,hupA,hyfC,hyfF,idi,insK,iraD,katE,kdgK,lamB,ldtD,lexA,ligA,ligB,lldP,lldR,malE,malF,mfd,mglA,mglC,mlaB,mmuM,modF,mug,mutH,mutL,mutM,mutS,mutT,mutY,nadE,nagE,nanK,narX,narY,nei,nfeR,nfi,nfo,nikE,nth,nudG,ogt,ompA,ompC,otsA,oxyR,paaJ,paoC,pdeD,pfkB,pflA,phr,polA,polB,priA,proQ,pstA,pstS,purA,purB,purD,purN,puuP,radA,radD,rbfA,rcnB,recA,recB,recC,recD,recF,recG,recJ,recN,recO,recQ,recR,recX,rep,rfbC,rfbX,rihC,rimK,rnhB,rnt,rtcB,rusA,rutE,ruvA,ruvB,ruvC,sbcB,sbcC,sbcD,sbmC,sgbU,solA,ssb,ssuE,sulA,symE,tag,thiH,tisB,treA,treC,udp,umuC,umuD,ung,uvrA,uvrB,uvrC,uvrD,uxuA,vsr,xthA,yaaY,yadC,yafN,yafO,yafP,yaiP,yajL,yajQ,ybaV,ybcM,ybfE,ybgI,ybhR,ybiJ,ybiX,ybjD,ybjX,ycdY,yceK,ycfL,ycgB,yciF,yciT,ycjU,ycjW,ydeM,ydhQ,ydiQ,ydiZ,ydjM,yeaD,yebG,yebK,yedF,yegP,yehB,yfbU,yfgI,ygcW,ygfI,yggE,yghG,ygjK,yhaC,yhbO,yhbQ,yhcF,yhcH,yiaA,yiaB,yiaO,yibA,yibH,yidQ,yjeI,yjhC,yjiA,yjiM,yjiX,yjjU,ykfM,yoaA,yohC,yphB,yqgF,yqiH,yqiJ,yraJ,yrfG,	cellular response to DNA damage stimulus
+GO:0009432	6	29	cho,dinB,dinD,dinG,dinI,lexA,polB,recA,recF,recN,recQ,recX,rimK,ruvA,ruvB,ssb,sulA,symE,tisB,umuC,umuD,uvrA,uvrB,uvrC,uvrD,yafN,yafO,yafP,yebG,	SOS response
+GO:0006281	6	86	ada,alkA,alkB,atl,cas1,cho,dam,dinB,dinG,dinI,dnaQ,exoX,gph,hchA,helD,lexA,ligA,ligB,mfd,modF,mug,mutH,mutL,mutM,mutS,mutT,mutY,nei,nfi,nfo,nth,nudG,ogt,phr,polA,polB,priA,radA,radD,recA,recB,recC,recD,recF,recG,recJ,recN,recO,recQ,recR,recX,rep,rnhB,rnt,rtcB,rusA,ruvA,ruvB,ruvC,sbcB,sbcC,sbcD,sgbU,ssb,tag,umuC,umuD,ung,uvrA,uvrB,uvrC,uvrD,vsr,xthA,yafN,yafO,yafP,yajL,ybaV,ybgI,ybjD,yebG,yegP,yhbO,yoaA,yrfG,	DNA repair
+GO:0000726	7	1	nfo,	non-recombinational repair
+GO:0006289	7	7	mfd,mutM,nei,uvrA,uvrB,uvrC,uvrD,	nucleotide-excision repair
+GO:0006283	8	1	mfd,	transcription-coupled nucleotide-excision repair
+GO:0045004	7	4	dnaQ,exoX,polB,rnt,	DNA replication proofreading
+GO:0006284	7	9	alkA,mutM,mutY,nei,nfo,nth,polA,tag,ung,	base-excision repair
+GO:0006301	7	4	dinB,umuC,umuD,yoaA,	postreplication repair
+GO:0019985	8	3	dinB,umuC,umuD,	translesion synthesis
+GO:0042276	9	1	dinB,	error-prone translesion synthesis
+GO:0006298	7	10	dam,exoX,mutH,mutL,mutS,mutY,rnhB,ssb,uvrD,vsr,	mismatch repair
+GO:0000725	7	12	helD,radA,recB,recC,recD,recN,rep,ruvA,ruvB,ruvC,ssb,uvrD,	recombinational repair
+GO:0000724	8	4	recB,recC,recD,recN,	double-strand break repair via homologous recombination
+GO:0036298	8	1	recN,	recombinational interstrand cross-link repair
+GO:0006302	7	10	priA,radD,recB,recC,recD,recF,recN,recO,ybjD,yegP,	double-strand break repair
+GO:0009408	4	60	bipA,clpB,clpP,clpS,degP,dnaJ,dnaK,dsbB,dtd,eutD,gloB,groL,groS,grpE,hflC,hflD,hflK,hflX,hslJ,hslO,hslR,hslU,hslV,hspQ,htpG,ibpA,ibpB,ldhA,loiP,lon,lsrR,marR,miaA,mngR,moaA,nudF,oppA,patZ,phoU,pncB,pnp,pspA,pykF,rhlE,rpoD,rpoH,slyD,sodA,ssuD,tig,ttdB,yajL,ybeY,yccX,yebS,yfcA,yggE,yhbO,yjaZ,yobF,	response to heat
+GO:0009409	4	19	bipA,cspA,cspB,cspG,cspI,deaD,hscA,infC,lepA,lpxP,otsA,otsB,raiA,rbfA,rnr,ves,ybiT,ydfK,ynaE,	response to cold
+GO:0042594	4	42	ahpC,appA,appY,argT,btsT,cspD,cstA,dcyD,ddpX,dps,gabP,glaH,gpp,iraM,iraP,leuB,mazG,mgtS,nfeF,nfuA,phoQ,phoR,phoU,psiE,relA,relE,rhsD,rplK,sanA,spoT,sspA,ssuE,tas,tauA,tauB,tauC,uspC,uspD,waaH,yeaG,ykgM,zinT,	response to starvation
+GO:0090549	5	3	gabP,glaH,sanA,	response to carbon starvation
+GO:0006970	4	43	aqpZ,betA,betB,betI,cpsB,cysG,emrE,flgH,ftsK,glrK,gshA,katE,kdpD,lepA,loiP,mscM,nhaA,opgG,opgH,osmC,osmE,osmF,osmY,otsA,otsB,phoQ,proP,proQ,proV,proW,proX,rcsC,rpoE,treA,treF,ubiG,uspC,ybdG,ybiO,yggT,yjjB,ynaI,yraP,	response to osmotic stress
+GO:0006972	5	15	cpsB,gshA,katE,osmC,osmF,osmY,proP,proQ,proV,proW,proX,treA,treF,ubiG,yggT,	hyperosmotic response
+GO:0042538	6	3	proP,proQ,ubiG,	hyperosmotic salinity response
+GO:0071475	7	2	proP,proQ,	cellular hyperosmotic salinity response
+GO:0071474	6	6	osmF,proP,proQ,treA,treF,yggT,	cellular hyperosmotic response
+GO:0009651	5	8	ftsK,kdpD,lepA,nhaA,proP,proQ,ubiG,uspC,	response to salt stress
+GO:0071472	6	3	kdpD,proP,proQ,	cellular response to salt stress
+GO:0043157	6	1	nhaA,	response to cation stress
+GO:0071470	5	15	glrK,kdpD,loiP,mscM,osmF,phoQ,proP,proQ,rcsC,treA,treF,ybdG,ybiO,yggT,ynaI,	cellular response to osmotic stress
+GO:0007231	6	4	glrK,phoQ,proP,proQ,	osmosensory signaling pathway
+GO:0007234	7	2	glrK,phoQ,	osmosensory signaling via phosphorelay pathway
+GO:0071476	6	1	loiP,	cellular hypotonic response
+GO:0006979	4	94	acnA,ahpC,ahpF,ariR,azoR,barA,bcp,blc,bsmA,btuE,ccp,clpA,cnoX,cysD,degP,efeO,fnr,fre,ftnA,ftsP,fumC,gor,gpmM,grxC,gstA,hcp,hslO,icd,iprA,iraD,katE,katG,lpd,mdtK,mltC,mntH,msrA,msrB,msrP,napF,nfuA,norV,norW,osmC,oxyR,patZ,pdeF,pgi,putA,qorA,rclA,rclB,rclC,rpmF,rseC,sodA,soxR,sseA,sufA,sufD,sufE,tatD,tktA,tpx,ubiH,uspE,uspF,wrbA,yaaA,yaaU,yajL,ybeQ,ybhJ,ychF,ychH,ydbK,ydeI,yfcF,yfcG,yfdK,yfdO,yfdS,yggE,yggX,ygiW,yhbO,yhcN,yidH,yjaA,yodD,yqhD,ytfE,ytfK,zinT,	response to oxidative stress
+GO:0034599	5	27	bcp,cnoX,gor,grxC,iraD,katG,mdtK,mltC,mntH,msrA,norW,pdeF,pgi,qorA,tktA,tpx,uspE,yajL,ychH,ydeI,yggE,yggX,ygiW,yhcN,yjaA,yodD,zinT,	cellular response to oxidative stress
+GO:0034614	6	14	katG,mdtK,norW,pdeF,tktA,uspE,ychH,ydeI,yggE,ygiW,yhcN,yjaA,yodD,zinT,	cellular response to reactive oxygen species
+GO:0071732	7	1	norW,	cellular response to nitric oxide
+GO:0070301	7	11	katG,pdeF,tktA,uspE,ychH,ydeI,ygiW,yhcN,yjaA,yodD,zinT,	cellular response to hydrogen peroxide
+GO:0000302	5	32	ahpF,ariR,barA,blc,bsmA,ccp,fnr,gstA,hcp,katG,mdtK,msrP,norV,norW,pdeF,rclA,rclB,rclC,rpmF,tatD,tktA,uspE,ychH,ydeI,yfcF,yggE,ygiW,yhcN,yjaA,yodD,yqhD,zinT,	response to reactive oxygen species
+GO:0071731	6	3	fnr,norV,norW,	response to nitric oxide
+GO:0042542	6	19	ariR,barA,bsmA,ccp,gstA,hcp,katG,pdeF,tatD,tktA,uspE,ychH,ydeI,yfcF,ygiW,yhcN,yjaA,yodD,zinT,	response to hydrogen peroxide
+GO:1901530	6	4	msrP,rclA,rclB,rclC,	response to hypochlorite
+GO:0033194	5	4	ahpC,btuE,osmC,yaaA,	response to hydroperoxide
+GO:0033195	6	1	ahpC,	response to alkyl hydroperoxide
+GO:0051409	4	3	hmp,oxyR,ytfE,	response to nitrosative stress
+GO:0071500	5	1	hmp,	cellular response to nitrosative stress
+GO:0022610	2	46	bamA,cpxA,cpxR,csgA,csgB,csgE,csgF,csgG,elfA,elfG,fimA,fimF,fimG,fimH,fimI,fliD,htrE,nlpE,sfmA,sfmF,sfmH,uspF,yadC,yadK,yadL,yadM,yadN,yadV,ybgD,ybgO,ycbU,ycbV,ydeQ,ydeR,ydeS,yeeJ,yehA,yehD,yfcP,yfcQ,yfcR,yfcV,ygiL,yraH,yraK,znuA,	biological adhesion
+GO:0007155	3	43	bamA,cpxA,cpxR,csgA,csgB,elfA,elfG,fimA,fimF,fimG,fimH,fimI,fliD,htrE,nlpE,sfmA,sfmF,sfmH,uspF,yadC,yadK,yadL,yadM,yadN,yadV,ybgD,ybgO,ycbU,ycbV,ydeQ,ydeR,ydeS,yeeJ,yehA,yehD,yfcP,yfcQ,yfcR,yfcV,ygiL,yraH,yraK,znuA,	cell adhesion
+GO:0006791	2	4	dcyD,tcyJ,tcyL,tcyP,	sulfur utilization
+GO:0009758	2	1	malX,	carbohydrate utilization
