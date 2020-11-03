@@ -21,7 +21,7 @@ Project Organization
 
 --------
 
-## Guide of installation
+## Guide of installation
  
  1. Clone the repository.
  2. Install [conda](https://docs.conda.io/projects/conda/en/latest/index.html).
